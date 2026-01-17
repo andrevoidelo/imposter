@@ -1,0 +1,14 @@
+{
+  "categoryId": "transportes",
+  "words": [
+    "Carro", "Ônibus", "Caminhão", "Van", "Moto", "Bicicleta", "Skate", "Patins", "Trem", "Metrô",
+    "Bonde", "Táxi", "Uber", "Limusine", "Ambulância", "Viatura", "Trator", "Escavadeira", "Guindaste", "Tanque",
+    "Jipe", "Avião", "Jato", "Helicóptero", "Planador", "Drone", "Foguete", "Espaçonave", "OVNI", "Balão",
+    "Dirigível", "Paraquedas", "Barco", "Navio", "Iate", "Balsa", "Cruzeiro", "Submarino", "Canoa", "Caiaque",
+    "Jangada", "Veleiro", "Lancha", "Jet Ski", "Teleférico", "Cavalo", "Camelo", "Elefante", "Carruagem", "Carroça",
+    "Triciclo", "Mobilete", "Trailer", "Motorhome", "Conversível", "Sedã", "Picape", "Motor", "Roda", "Pneu",
+    "Volante", "Banco", "Porta", "Janela", "Espelho", "Farol", "Freio", "Acelerador", "Marcha", "Combustível",
+    "Gasolina", "Elétrico", "Híbrido", "Estacionamento", "Garagem", "Posto", "Oficina", "Pedágio", "Trânsito", "Semaforo",
+    "Placa", "Cruzamento", "Estrada", "Rodovia", "Ponte", "Túnel", "Pista", "Trilho", "Porto", "Aeroporto"
+  ]
+}

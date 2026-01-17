@@ -1,0 +1,15 @@
+{
+  "categoryId": "moda",
+  "words": [
+    "Shirt", "T-Shirt", "Blouse", "Top", "Sweater", "Jumper", "Hoodie", "Cardigan", "Vest", "Jacket",
+    "Coat", "Overcoat", "Raincoat", "Parka", "Blazer", "Suit", "Tuxedo", "Dress", "Gown", "Skirt",
+    "Pants", "Trousers", "Jeans", "Shorts", "Leggings", "Tights", "Underwear", "Panties", "Boxers", "Briefs",
+    "Bra", "Socks", "Stockings", "Pajamas", "Nightgown", "Robe", "Swimsuit", "Bikini", "Trunks", "Uniform",
+    "Costume", "Shoes", "Sneakers", "Trainers", "Boots", "Sandals", "Flip Flops", "Slippers", "Heels", "Flats",
+    "Hat", "Cap", "Beanie", "Beret", "Helmet", "Scarf", "Gloves", "Mittens", "Tie", "Bowtie",
+    "Belt", "Suspenders", "Wallet", "Purse", "Handbag", "Backpack", "Bag", "Suitcase", "Luggage", "Glasses",
+    "Sunglasses", "Watch", "Jewelry", "Necklace", "Bracelet", "Ring", "Earrings", "Piercing", "Tattoo", "Makeup",
+    "Lipstick", "Perfume", "Cologne", "Hair", "Hairstyle", "Wig", "Beard", "Mustache", "Mask", "Umbrella",
+    "Cotton", "Wool", "Silk", "Leather", "Denim", "Velvet", "Linen", "Nylon", "Polyester", "Fur"
+  ]
+}

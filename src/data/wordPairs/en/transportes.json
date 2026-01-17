@@ -1,0 +1,10 @@
+{
+  "categoryId": "transportes",
+  "pairs": [
+    { "citizen": "Car", "undercover": "Taxi" },
+    { "citizen": "Bus", "undercover": "Train" },
+    { "citizen": "Airplane", "undercover": "Helicopter" },
+    { "citizen": "Boat", "undercover": "Ship" },
+    { "citizen": "Bike", "undercover": "Motorcycle" }
+  ]
+}

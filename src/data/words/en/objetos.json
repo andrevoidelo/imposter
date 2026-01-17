@@ -1,0 +1,16 @@
+{
+  "categoryId": "objetos",
+  "words": [
+    "Table", "Chair", "Sofa", "Couch", "Bed", "Desk", "Lamp", "Light", "Bulb", "Fan",
+    "Door", "Window", "Wall", "Floor", "Ceiling", "Roof", "Carpet", "Rug", "Curtain", "Mirror",
+    "Clock", "Watch", "Phone", "Mobile", "Laptop", "Computer", "Tablet", "Camera", "TV", "Remote",
+    "Radio", "Speaker", "Headphones", "Earphones", "Charger", "Cable", "Battery", "Plug", "Socket", "Switch",
+    "Pen", "Pencil", "Eraser", "Sharpener", "Ruler", "Paper", "Notebook", "Book", "Magazine", "Newspaper",
+    "Bag", "Backpack", "Purse", "Wallet", "Keys", "Glasses", "Sunglasses", "Umbrella", "Raincoat", "Coat",
+    "Jacket", "Hat", "Cap", "Gloves", "Scarf", "Shoes", "Sneakers", "Boots", "Socks", "Shirt",
+    "T-Shirt", "Pants", "Jeans", "Shorts", "Dress", "Skirt", "Belt", "Tie", "Suit", "Uniform",
+    "Cup", "Glass", "Mug", "Bottle", "Plate", "Bowl", "Dish", "Fork", "Spoon", "Knife",
+    "Pan", "Pot", "Oven", "Stove", "Microwave", "Fridge", "Freezer", "Toaster", "Blender", "Mixer",
+    "Sink", "Tap", "Soap", "Shampoo", "Towel", "Toothbrush", "Toothpaste", "Brush", "Comb", "Razor"
+  ]
+}

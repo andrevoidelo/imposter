@@ -1,0 +1,10 @@
+{
+  "categoryId": "animais",
+  "pairs": [
+    { "citizen": "Dog", "undercover": "Wolf" },
+    { "citizen": "Cat", "undercover": "Tiger" },
+    { "citizen": "Dolphin", "undercover": "Shark" },
+    { "citizen": "Eagle", "undercover": "Hawk" },
+    { "citizen": "Snake", "undercover": "Lizard" }
+  ]
+}

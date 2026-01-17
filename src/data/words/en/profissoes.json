@@ -1,0 +1,15 @@
+{
+  "categoryId": "profissoes",
+  "words": [
+    "Doctor", "Nurse", "Surgeon", "Dentist", "Pharmacist", "Vet", "Teacher", "Professor", "Student", "Scientist",
+    "Engineer", "Architect", "Programmer", "Developer", "Designer", "Artist", "Writer", "Author", "Journalist", "Editor",
+    "Photographer", "Director", "Actor", "Musician", "Singer", "Dancer", "Chef", "Cook", "Baker", "Waiter",
+    "Bartender", "Pilot", "Flight Attendant", "Captain", "Driver", "Truck Driver", "Taxi Driver", "Bus Driver", "Mechanic", "Electrician",
+    "Plumber", "Carpenter", "Builder", "Painter", "Cleaner", "Janitor", "Gardener", "Farmer", "Fisherman", "Police Officer",
+    "Detective", "Firefighter", "Soldier", "General", "Guard", "Lawyer", "Judge", "Politician", "President", "Mayor",
+    "Businessman", "Manager", "CEO", "Accountant", "Banker", "Secretary", "Receptionist", "Salesperson", "Cashier", "Real Estate Agent",
+    "Athlete", "Coach", "Referee", "Librarian", "Historian", "Archaeologist", "Psychologist", "Therapist", "Priest", "Pastor",
+    "Monk", "Nun", "Astronaut", "Astronomer", "Biologist", "Chemist", "Physicist", "Geologist", "Meteorologist", "Zookeeper",
+    "Magician", "Clown", "Acrobat", "Model", "Stylist", "Barber", "Hairdresser", "Makeup Artist", "Tattoo Artist", "Florist"
+  ]
+}

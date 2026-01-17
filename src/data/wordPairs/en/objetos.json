@@ -1,0 +1,10 @@
+{
+  "categoryId": "objetos",
+  "pairs": [
+    { "citizen": "Chair", "undercover": "Sofa" },
+    { "citizen": "Pen", "undercover": "Pencil" },
+    { "citizen": "Phone", "undercover": "Tablet" },
+    { "citizen": "Fork", "undercover": "Spoon" },
+    { "citizen": "Cup", "undercover": "Glass" }
+  ]
+}

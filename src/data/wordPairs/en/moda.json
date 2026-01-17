@@ -1,0 +1,10 @@
+{
+  "categoryId": "moda",
+  "pairs": [
+    { "citizen": "Shirt", "undercover": "T-Shirt" },
+    { "citizen": "Skirt", "undercover": "Dress" },
+    { "citizen": "Shoes", "undercover": "Boots" },
+    { "citizen": "Hat", "undercover": "Cap" },
+    { "citizen": "Glasses", "undercover": "Sunglasses" }
+  ]
+}

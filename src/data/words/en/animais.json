@@ -1,0 +1,16 @@
+{
+  "categoryId": "animais",
+  "words": [
+    "Dog", "Cat", "Lion", "Elephant", "Tiger", "Bear", "Wolf", "Fox", "Rabbit", "Mouse",
+    "Horse", "Cow", "Pig", "Sheep", "Goat", "Chicken", "Duck", "Eagle", "Hawk", "Owl",
+    "Parrot", "Penguin", "Ostrich", "Flamingo", "Snake", "Lizard", "Frog", "Turtle", "Crocodile", "Alligator",
+    "Shark", "Whale", "Dolphin", "Fish", "Octopus", "Squid", "Crab", "Lobster", "Shrimp", "Starfish",
+    "Jellyfish", "Bee", "Ant", "Butterfly", "Spider", "Scorpion", "Mosquito", "Fly", "Beetle", "Dragonfly",
+    "Tree", "Flower", "Grass", "Rose", "Tulip", "Sunflower", "Cactus", "Palm Tree", "Pine Tree", "Oak",
+    "Forest", "Jungle", "Desert", "Ocean", "Sea", "River", "Lake", "Mountain", "Hill", "Valley",
+    "Volcano", "Cave", "Beach", "Island", "Waterfall", "Rain", "Snow", "Storm", "Thunder", "Lightning",
+    "Wind", "Sun", "Moon", "Star", "Planet", "Cloud", "Sky", "Rainbow", "Fire", "Ice",
+    "Earth", "Rock", "Sand", "Mud", "Leaf", "Root", "Branch", "Seed", "Fruit", "Mushroom",
+    "Hurricane", "Tornado", "Earthquake", "Tsunami", "Kangaroo", "Koala", "Panda", "Giraffe", "Zebra", "Hippo"
+  ]
+}

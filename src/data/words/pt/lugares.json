@@ -1,0 +1,15 @@
+{
+  "categoryId": "lugares",
+  "words": [
+    "Aeroporto", "Estação", "Porto", "Rodoviária", "Hotel", "Motel", "Pousada", "Resort", "Acampamento", "Barraca",
+    "Praia", "Montanha", "Floresta", "Rio", "Lago", "Cachoeira", "Deserto", "Ilha", "Cidade", "Vila",
+    "Rua", "Avenida", "Praça", "Parque", "Jardim", "Zoológico", "Museu", "Teatro", "Cinema", "Estádio",
+    "Ginásio", "Piscina", "Escola", "Faculdade", "Universidade", "Biblioteca", "Hospital", "Clínica", "Farmácia", "Banco",
+    "Correio", "Delegacia", "Igreja", "Catedral", "Templo", "Mesquita", "Restaurante", "Café", "Bar", "Boteco",
+    "Balada", "Loja", "Shopping", "Supermercado", "Mercado", "Padaria", "Açougue", "Fazenda", "Sítio", "Fábrica",
+    "Escritório", "Prédio", "Arranha-céu", "Torre", "Ponte", "Túnel", "Castelo", "Palácio", "Forte", "Ruínas",
+    "Pirâmide", "Estátua", "Monumento", "Fonte", "EUA", "Reino Unido", "Canadá", "Austrália", "França", "Alemanha",
+    "Itália", "Espanha", "Portugal", "Brasil", "Argentina", "México", "China", "Japão", "Índia", "Rússia",
+    "Egito", "Paris", "Londres", "Nova York", "Tóquio", "Roma", "Rio de Janeiro", "São Paulo", "Salvador", "Recife"
+  ]
+}

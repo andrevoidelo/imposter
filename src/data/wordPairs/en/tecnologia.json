@@ -1,0 +1,10 @@
+{
+  "categoryId": "tecnologia",
+  "pairs": [
+    { "citizen": "Laptop", "undercover": "Tablet" },
+    { "citizen": "Phone", "undercover": "Watch" },
+    { "citizen": "Wifi", "undercover": "Internet" },
+    { "citizen": "App", "undercover": "Website" },
+    { "citizen": "Robot", "undercover": "AI" }
+  ]
+}

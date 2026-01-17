@@ -1,0 +1,10 @@
+{
+  "categoryId": "animais",
+  "pairs": [
+    { "citizen": "Cachorro", "undercover": "Lobo" },
+    { "citizen": "Gato", "undercover": "Tigre" },
+    { "citizen": "Golfinho", "undercover": "Tubarão" },
+    { "citizen": "Águia", "undercover": "Gavião" },
+    { "citizen": "Cobra", "undercover": "Lagarto" }
+  ]
+}

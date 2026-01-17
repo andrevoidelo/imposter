@@ -1,0 +1,32 @@
+import { useTranslation } from 'react-i18next';
+import { Button } from './Button';
+
+export const LanguageSwitcher = () => {
+  const { i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    // Check if current language starts with 'pt' (could be 'pt', 'pt-BR', etc.)
+    const newLang = i18n.language.startsWith('pt') ? 'en' : 'pt';
+    i18n.changeLanguage(newLang);
+  };
+
+  const getLangDisplay = () => {
+    const lang = i18n.language ? i18n.language.substring(0, 2).toLowerCase() : 'pt';
+    if (lang === 'pt') return { code: 'PT', flag: '🇧🇷' };
+    return { code: 'EN', flag: '🇺🇸' };
+  };
+
+  const display = getLangDisplay();
+
+  return (
+    <Button 
+      variant="ghost" 
+      size="sm" 
+      onClick={toggleLanguage}
+      className="fixed top-4 right-4 z-50 bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 uppercase font-bold text-xs h-8 px-3 gap-2"
+    >
+      <span>{display.code}</span>
+      <span className="text-base">{display.flag}</span>
+    </Button>
+  );
+};

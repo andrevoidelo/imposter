@@ -1,0 +1,10 @@
+{
+  "categoryId": "lugares",
+  "pairs": [
+    { "citizen": "Beach", "undercover": "Pool" },
+    { "citizen": "Hotel", "undercover": "Motel" },
+    { "citizen": "Museum", "undercover": "Gallery" },
+    { "citizen": "City", "undercover": "Town" },
+    { "citizen": "Forest", "undercover": "Park" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "categoryId": "esportes",
+  "words": [
+    "Soccer", "Football", "Basketball", "Baseball", "Volleyball", "Tennis", "Golf", "Rugby", "Cricket", "Hockey",
+    "Badminton", "Table Tennis", "Ping Pong", "Squash", "Handball", "Boxing", "Wrestling", "MMA", "Judo", "Karate",
+    "Taekwondo", "Kung Fu", "Fencing", "Swimming", "Diving", "Surfing", "Sailing", "Rowing", "Canoeing", "Kayaking",
+    "Water Polo", "Cycling", "Biking", "Running", "Jogging", "Marathon", "Sprint", "Athletics", "Gymnastics", "Yoga",
+    "Pilates", "Aerobics", "Fitness", "Crossfit", "Weightlifting", "Bodybuilding", "Climbing", "Hiking", "Trekking", "Camping",
+    "Skiing", "Snowboarding", "Skating", "Ice Skating", "Rollerblading", "Skateboarding", "Surfing", "Bowling", "Billiards", "Pool",
+    "Darts", "Archery", "Shooting", "Hunting", "Fishing", "Horse Riding", "Racing", "Formula 1", "MotoGP", "Rally",
+    "Karting", "Drifting", "Chess", "Poker", "Cards", "Video Games", "Esports", "Referee", "Umpire", "Coach",
+    "Team", "Player", "Captain", "Goalkeeper", "Defender", "Midfielder", "Striker", "Forward", "Quarterback", "Pitcher",
+    "Ball", "Bat", "Racket", "Club", "Stick", "Helmet", "Gloves", "Boots", "Jersey", "Shorts",
+    "Stadium", "Arena", "Field", "Pitch", "Court", "Track", "Pool", "Gym", "Ring", "Mat"
+  ]
+}

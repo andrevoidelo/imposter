@@ -1,0 +1,10 @@
+{
+  "categoryId": "profissoes",
+  "pairs": [
+    { "citizen": "Doctor", "undercover": "Nurse" },
+    { "citizen": "Teacher", "undercover": "Professor" },
+    { "citizen": "Police", "undercover": "Security" },
+    { "citizen": "Artist", "undercover": "Designer" },
+    { "citizen": "Actor", "undercover": "Director" }
+  ]
+}

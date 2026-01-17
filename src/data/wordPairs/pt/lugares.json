@@ -1,0 +1,10 @@
+{
+  "categoryId": "lugares",
+  "pairs": [
+    { "citizen": "Praia", "undercover": "Piscina" },
+    { "citizen": "Hotel", "undercover": "Motel" },
+    { "citizen": "Museu", "undercover": "Galeria" },
+    { "citizen": "Cidade", "undercover": "Vila" },
+    { "citizen": "Floresta", "undercover": "Parque" }
+  ]
+}

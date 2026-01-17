@@ -1,0 +1,10 @@
+{
+  "categoryId": "alimentos",
+  "pairs": [
+    { "citizen": "Pizza", "undercover": "Burger" },
+    { "citizen": "Coffee", "undercover": "Tea" },
+    { "citizen": "Ice Cream", "undercover": "Popsicle" },
+    { "citizen": "Cake", "undercover": "Pie" },
+    { "citizen": "Rice", "undercover": "Pasta" }
+  ]
+}

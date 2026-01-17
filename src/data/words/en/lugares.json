@@ -1,0 +1,16 @@
+{
+  "categoryId": "lugares",
+  "words": [
+    "Airport", "Station", "Port", "Bus Stop", "Hotel", "Motel", "Hostel", "Resort", "Camp", "Tent",
+    "Beach", "Mountain", "Forest", "Lake", "River", "Waterfall", "Desert", "Island", "City", "Town",
+    "Village", "Street", "Road", "Square", "Park", "Garden", "Zoo", "Museum", "Gallery", "Theater",
+    "Cinema", "Stadium", "Arena", "Gym", "Pool", "School", "College", "University", "Library", "Hospital",
+    "Clinic", "Pharmacy", "Bank", "Post Office", "Police Station", "Fire Station", "Church", "Cathedral", "Temple", "Mosque",
+    "Restaurant", "Cafe", "Bar", "Pub", "Club", "Disco", "Shop", "Store", "Supermarket", "Market",
+    "Mall", "Bakery", "Butcher", "Farm", "Barn", "Factory", "Office", "Building", "Skyscraper", "Tower",
+    "Bridge", "Tunnel", "Castle", "Palace", "Fort", "Ruins", "Pyramid", "Statue", "Monument", "Fountain",
+    "USA", "UK", "Canada", "Australia", "France", "Germany", "Italy", "Spain", "Portugal", "Brazil",
+    "Argentina", "Mexico", "China", "Japan", "India", "Russia", "Egypt", "South Africa", "Paris", "London",
+    "New York", "Tokyo", "Rome", "Rio de Janeiro", "Sydney", "Dubai", "Moscow", "Beijing", "Berlin", "Madrid"
+  ]
+}

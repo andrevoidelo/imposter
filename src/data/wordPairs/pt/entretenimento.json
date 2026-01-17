@@ -1,0 +1,10 @@
+{
+  "categoryId": "entretenimento",
+  "pairs": [
+    { "citizen": "Filme", "undercover": "Série" },
+    { "citizen": "Batman", "undercover": "Superman" },
+    { "citizen": "Star Wars", "undercover": "Star Trek" },
+    { "citizen": "Netflix", "undercover": "Cinema" },
+    { "citizen": "Comédia", "undercover": "Drama" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "categoryId": "transportes",
+  "words": [
+    "Car", "Bus", "Truck", "Van", "Motorcycle", "Bike", "Bicycle", "Scooter", "Skateboard", "Rollerblades",
+    "Train", "Subway", "Metro", "Tram", "Trolley", "Monorail", "Taxi", "Cab", "Uber", "Lyft",
+    "Limousine", "Ambulance", "Police Car", "Fire Truck", "Tractor", "Bulldozer", "Crane", "Forklift", "Tank", "Jeep",
+    "Airplane", "Plane", "Jet", "Helicopter", "Chopper", "Glider", "Drone", "Rocket", "Spaceship", "UFO",
+    "Balloon", "Blimp", "Zeppelin", "Parachute", "Boat", "Ship", "Yacht", "Ferry", "Cruise", "Submarine",
+    "Canoe", "Kayak", "Raft", "Sailboat", "Speedboat", "Jet Ski", "Hovercraft", "Gondola", "Cable Car", "Ski Lift",
+    "Horse", "Camel", "Elephant", "Donkey", "Carriage", "Cart", "Wagon", "Sled", "Sleigh", "Rickshaw",
+    "Wheelchair", "Stroller", "Walker", "Crutches", "Segway", "Hoverboard", "Unicycle", "Tricycle", "Moped", "RV",
+    "Camper", "Trailer", "Caravan", "Motorhome", "Convertible", "Sedan", "SUV", "Hatchback", "Coupe", "Pickup",
+    "Engine", "Wheel", "Tire", "Steering Wheel", "Seat", "Door", "Window", "Mirror", "Light", "Brake"
+  ]
+}

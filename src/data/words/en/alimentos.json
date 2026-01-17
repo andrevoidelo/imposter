@@ -1,0 +1,15 @@
+{
+  "categoryId": "alimentos",
+  "words": [
+    "Pizza", "Burger", "Sandwich", "Hot Dog", "Taco", "Burrito", "Sushi", "Pasta", "Spaghetti", "Lasagna",
+    "Rice", "Beans", "Bread", "Toast", "Pancake", "Waffle", "Cereal", "Oatmeal", "Egg", "Omelet",
+    "Bacon", "Sausage", "Ham", "Steak", "Chicken", "Turkey", "Duck", "Fish", "Shrimp", "Lobster",
+    "Crab", "Salad", "Soup", "Stew", "Curry", "Fries", "Chips", "Popcorn", "Pretzel", "Nachos",
+    "Cheese", "Yogurt", "Milk", "Butter", "Ice Cream", "Cake", "Pie", "Cookie", "Brownie", "Donut",
+    "Muffin", "Croissant", "Bagel", "Chocolate", "Candy", "Gum", "Apple", "Banana", "Orange", "Grape",
+    "Strawberry", "Blueberry", "Raspberry", "Watermelon", "Melon", "Pineapple", "Mango", "Peach", "Pear", "Plum",
+    "Cherry", "Lemon", "Lime", "Avocado", "Tomato", "Potato", "Carrot", "Onion", "Garlic", "Pepper",
+    "Broccoli", "Corn", "Peas", "Spinach", "Lettuce", "Cucumber", "Mushroom", "Water", "Coffee", "Tea",
+    "Juice", "Soda", "Beer", "Wine", "Whiskey", "Vodka", "Rum", "Gin", "Champagne", "Cocktail"
+  ]
+}

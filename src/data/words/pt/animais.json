@@ -1,0 +1,16 @@
+{
+  "categoryId": "animais",
+  "words": [
+    "Cachorro", "Gato", "Leão", "Elefante", "Tigre", "Urso", "Lobo", "Raposa", "Coelho", "Rato",
+    "Cavalo", "Vaca", "Porco", "Ovelha", "Cabra", "Galinha", "Pato", "Águia", "Gavião", "Coruja",
+    "Papagaio", "Pinguim", "Avestruz", "Flamingo", "Cobra", "Lagarto", "Sapo", "Tartaruga", "Jacaré", "Crocodilo",
+    "Tubarão", "Baleia", "Golfinho", "Peixe", "Polvo", "Lula", "Caranguejo", "Lagosta", "Camarão", "Estrela-do-mar",
+    "Água-viva", "Abelha", "Formiga", "Borboleta", "Aranha", "Escorpião", "Mosquito", "Mosca", "Besouro", "Libélula",
+    "Árvore", "Flor", "Grama", "Rosa", "Tulipa", "Girassol", "Cacto", "Palmeira", "Pinheiro", "Carvalho",
+    "Floresta", "Selva", "Deserto", "Oceano", "Mar", "Rio", "Lago", "Montanha", "Colina", "Vale",
+    "Vulcão", "Caverna", "Praia", "Ilha", "Cachoeira", "Chuva", "Neve", "Tempestade", "Trovão", "Raio",
+    "Vento", "Sol", "Lua", "Estrela", "Planeta", "Nuvem", "Céu", "Arco-íris", "Fogo", "Gelo",
+    "Terra", "Pedra", "Areia", "Lama", "Folha", "Raiz", "Galho", "Semente", "Fruta", "Cogumelo",
+    "Furacão", "Tornado", "Terremoto", "Tsunami", "Canguru", "Coala", "Panda", "Girafa", "Zebra", "Hipopótamo"
+  ]
+}

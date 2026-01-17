@@ -1,0 +1,10 @@
+{
+  "categoryId": "alimentos",
+  "pairs": [
+    { "citizen": "Pizza", "undercover": "Hambúrguer" },
+    { "citizen": "Café", "undercover": "Chá" },
+    { "citizen": "Sorvete", "undercover": "Picolé" },
+    { "citizen": "Bolo", "undercover": "Torta" },
+    { "citizen": "Arroz", "undercover": "Macarrão" }
+  ]
+}

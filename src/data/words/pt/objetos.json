@@ -1,0 +1,15 @@
+{
+  "categoryId": "objetos",
+  "words": [
+    "Mesa", "Cadeira", "Sofá", "Poltrona", "Cama", "Escrivaninha", "Lâmpada", "Luz", "Lustre", "Ventilador",
+    "Porta", "Janela", "Parede", "Chão", "Teto", "Telhado", "Tapete", "Cortina", "Espelho", "Relógio",
+    "Celular", "Notebook", "Computador", "Tablet", "Câmera", "TV", "Televisão", "Rádio", "Caixa de Som", "Fone",
+    "Carregador", "Cabo", "Bateria", "Tomada", "Interruptor", "Caneta", "Lápis", "Borracha", "Apontador", "Régua",
+    "Papel", "Caderno", "Livro", "Revista", "Jornal", "Mochila", "Bolsa", "Carteira", "Chaves", "Óculos",
+    "Guarda-chuva", "Capa de Chuva", "Casaco", "Jaqueta", "Chapéu", "Boné", "Luvas", "Cachecol", "Sapatos", "Tênis",
+    "Botas", "Meias", "Camisa", "Camiseta", "Calça", "Shorts", "Vestido", "Saia", "Cinto", "Gravata",
+    "Terno", "Xícara", "Copo", "Caneca", "Garrafa", "Prato", "Tigela", "Garfo", "Colher", "Faca",
+    "Panela", "Fogão", "Forno", "Microondas", "Geladeira", "Freezer", "Torradeira", "Liquidificador", "Batedeira", "Pia",
+    "Sabonete", "Shampoo", "Toalha", "Escova", "Pasta de Dente", "Pente", "Barbeador", "Vassoura", "Rodo", "Balde"
+  ]
+}

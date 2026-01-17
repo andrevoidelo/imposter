@@ -1,0 +1,16 @@
+{
+  "categoryId": "tecnologia",
+  "words": [
+    "Computer", "PC", "Laptop", "Desktop", "Mac", "Tablet", "iPad", "Phone", "Smartphone", "iPhone",
+    "Android", "Smartwatch", "Watch", "TV", "Television", "Radio", "Speaker", "Headphones", "Earphones", "Microphone",
+    "Camera", "Webcam", "Drone", "Robot", "Bot", "Console", "PlayStation", "Xbox", "Nintendo", "Switch",
+    "Controller", "Joystick", "Keyboard", "Mouse", "Screen", "Monitor", "Display", "Printer", "Scanner", "Projector",
+    "Router", "Modem", "WiFi", "Internet", "Web", "Cloud", "Server", "Database", "Software", "Hardware",
+    "App", "Application", "Program", "Game", "Video Game", "Website", "Site", "Email", "Chat", "Message",
+    "Social Media", "Facebook", "Instagram", "Twitter", "TikTok", "YouTube", "Google", "Amazon", "Apple", "Microsoft",
+    "Code", "Coding", "Programming", "Algorithm", "Bug", "Virus", "Hacker", "Cybersecurity", "Password", "Login",
+    "AI", "Artificial Intelligence", "VR", "Virtual Reality", "AR", "Augmented Reality", "Metaverse", "Blockchain", "Bitcoin", "Crypto",
+    "NFT", "Satellite", "Rocket", "Space Station", "Telescope", "Microscope", "Laser", "Battery", "Charger", "Cable",
+    "USB", "Bluetooth", "HDMI", "Chip", "Processor", "CPU", "GPU", "RAM", "Memory", "Disk"
+  ]
+}

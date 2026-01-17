@@ -1,0 +1,15 @@
+{
+  "categoryId": "alimentos",
+  "words": [
+    "Pizza", "Hambúrguer", "Sanduíche", "Cachorro-quente", "Taco", "Burrito", "Sushi", "Macarrão", "Espaguete", "Lasanha",
+    "Arroz", "Feijão", "Pão", "Torrada", "Panqueca", "Waffle", "Cereal", "Aveia", "Ovo", "Omelete",
+    "Bacon", "Linguiça", "Presunto", "Bife", "Frango", "Peru", "Pato", "Peixe", "Camarão", "Lagosta",
+    "Caranguejo", "Salada", "Sopa", "Ensopado", "Curry", "Batata Frita", "Chips", "Pipoca", "Pretzel", "Nachos",
+    "Queijo", "Iogurte", "Leite", "Manteiga", "Sorvete", "Bolo", "Torta", "Biscoito", "Brownie", "Rosquinha",
+    "Muffin", "Croissant", "Bagel", "Chocolate", "Doce", "Chiclete", "Maçã", "Banana", "Laranja", "Uva",
+    "Morango", "Mirtilo", "Framboesa", "Melancia", "Melão", "Abacaxi", "Manga", "Pêssego", "Pera", "Ameixa",
+    "Cereja", "Limão", "Lima", "Abacate", "Tomate", "Batata", "Cenoura", "Cebola", "Alho", "Pimenta",
+    "Brócolis", "Milho", "Ervilha", "Espinafre", "Alface", "Pepino", "Cogumelo", "Água", "Café", "Chá",
+    "Suco", "Refrigerante", "Cerveja", "Vinho", "Whisky", "Vodka", "Rum", "Gin", "Champanhe", "Coquetel"
+  ]
+}

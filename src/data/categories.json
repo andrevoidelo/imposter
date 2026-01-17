@@ -1,0 +1,82 @@
+[
+  {
+    "id": "animais",
+    "name": { "pt": "Animais e Natureza", "en": "Animals & Nature" },
+    "icon": "🐾",
+    "description": { "pt": "Animais, plantas e fenômenos naturais", "en": "Animals, plants, and natural phenomena" },
+    "difficulty": "easy",
+    "wordCount": 100
+  },
+  {
+    "id": "alimentos",
+    "name": { "pt": "Comida e Bebida", "en": "Food & Drinks" },
+    "icon": "🍔",
+    "description": { "pt": "Pratos, ingredientes e bebidas", "en": "Dishes, ingredients, and beverages" },
+    "difficulty": "easy",
+    "wordCount": 100
+  },
+  {
+    "id": "entretenimento",
+    "name": { "pt": "Filmes e Entretenimento", "en": "Movies & Entertainment" },
+    "icon": "🎬",
+    "description": { "pt": "Filmes, séries, atores e cultura pop", "en": "Movies, series, actors, and pop culture" },
+    "difficulty": "medium",
+    "wordCount": 100
+  },
+  {
+    "id": "profissoes",
+    "name": { "pt": "Profissões", "en": "Professions" },
+    "icon": "💼",
+    "description": { "pt": "Trabalhos, carreiras e ocupações", "en": "Jobs, careers, and occupations" },
+    "difficulty": "medium",
+    "wordCount": 100
+  },
+  {
+    "id": "objetos",
+    "name": { "pt": "Objetos do Cotidiano", "en": "Everyday Objects" },
+    "icon": "💡",
+    "description": { "pt": "Coisas que você encontra em casa ou no escritório", "en": "Things you find at home or the office" },
+    "difficulty": "easy",
+    "wordCount": 100
+  },
+  {
+    "id": "lugares",
+    "name": { "pt": "Viagem e Lugares", "en": "Travel & Places" },
+    "icon": "✈️",
+    "description": { "pt": "Países, cidades e locais turísticos", "en": "Countries, cities, and tourist spots" },
+    "difficulty": "medium",
+    "wordCount": 100
+  },
+  {
+    "id": "esportes",
+    "name": { "pt": "Esportes", "en": "Sports" },
+    "icon": "⚽",
+    "description": { "pt": "Atividades físicas e jogos", "en": "Physical activities and games" },
+    "difficulty": "easy",
+    "wordCount": 100
+  },
+  {
+    "id": "transportes",
+    "name": { "pt": "Transportes", "en": "Transportation" },
+    "icon": "🚀",
+    "description": { "pt": "Veículos e meios de locomoção", "en": "Vehicles and ways to get around" },
+    "difficulty": "easy",
+    "wordCount": 100
+  },
+  {
+    "id": "moda",
+    "name": { "pt": "Roupas e Moda", "en": "Clothing & Fashion" },
+    "icon": "👗",
+    "description": { "pt": "Vestuário, acessórios e estilo", "en": "Apparel, accessories, and style" },
+    "difficulty": "easy",
+    "wordCount": 100
+  },
+  {
+    "id": "tecnologia",
+    "name": { "pt": "Tecnologia", "en": "Technology" },
+    "icon": "💻",
+    "description": { "pt": "Gadgets, computadores e inovação", "en": "Gadgets, computers, and innovation" },
+    "difficulty": "medium",
+    "wordCount": 100
+  }
+]

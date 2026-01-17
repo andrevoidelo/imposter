@@ -1,0 +1,15 @@
+{
+  "categoryId": "entretenimento",
+  "words": [
+    "Movie", "Film", "Cinema", "Theater", "Actor", "Actress", "Director", "Producer", "Screenwriter", "Oscar",
+    "Hollywood", "Netflix", "Disney", "Pixar", "Marvel", "DC", "Superhero", "Villain", "Action", "Comedy",
+    "Drama", "Horror", "Thriller", "Sci-Fi", "Fantasy", "Romance", "Animation", "Documentary", "Musical", "Western",
+    "Harry Potter", "Star Wars", "Lord of the Rings", "Avengers", "Batman", "Superman", "Spiderman", "Wonder Woman", "Iron Man", "Captain America",
+    "Thor", "Hulk", "Black Panther", "Joker", "Thanos", "Darth Vader", "Luke Skywalker", "Yoda", "Hermione", "Ron",
+    "Dumbledore", "Voldemort", "Titanic", "Avatar", "Jurassic Park", "Lion King", "Frozen", "Toy Story", "Shrek", "Finding Nemo",
+    "Incredibles", "Matrix", "Inception", "Interstellar", "Godfather", "Pulp Fiction", "Fight Club", "Forrest Gump", "Gladiator", "Rocky",
+    "Terminator", "Alien", "Predator", "Jaws", "Back to the Future", "Indiana Jones", "Ghostbusters", "E.T.", "Home Alone", "Gremlins",
+    "Friends", "The Office", "Game of Thrones", "Breaking Bad", "Stranger Things", "Crown", "Walking Dead", "Simpsons", "Family Guy", "SpongeBob",
+    "Mickey Mouse", "Donald Duck", "Goofy", "Bugs Bunny", "Tom & Jerry", "Scooby Doo", "Pokemon", "Mario", "Sonic", "Pikachu"
+  ]
+}

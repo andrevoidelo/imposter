@@ -1,0 +1,146 @@
+{
+  "home": {
+    "title": "IMPOSTOR!",
+    "subtitle": "Everyone knows the secret word... except one!",
+    "newGame": "NEW GAME",
+    "howToPlay": "HOW TO PLAY"
+  },
+  "setup": {
+    "title": "Game Setup",
+    "players": "Players",
+    "names": "Names",
+    "placeholderName": "Player {{number}}",
+    "categories": "Categories",
+    "manage": "Manage",
+    "gameMode": "Game Mode",
+    "modes": {
+      "classic": {
+        "title": "Classic",
+        "description": "1 impostor without any clues"
+      },
+      "undercover": {
+        "title": "Undercover",
+        "description": "Impostor gets a similar word"
+      },
+      "confused": {
+        "title": "Confused",
+        "description": "Gets a similar word, but is innocent!"
+      }
+    },
+    "options": "Options",
+    "includeConfused": {
+      "title": "Include Confused",
+      "description": "Gets a similar word, but is innocent!"
+    },
+    "discussionTime": "Discussion Time",
+    "startGame": "START GAME",
+    "alertNoCategory": "Select at least one category!"
+  },
+  "game": {
+    "roles": {
+      "passTo": "Pass to",
+      "yourWord": "Your word is:",
+      "category": "Category: {{category}}",
+      "impostorTitle": "YOU ARE THE IMPOSTOR!",
+      "impostorDesc": "Pretend you know the secret word and try not to get caught!",
+      "undercoverWarning": "Careful! Your word is slightly different from the others.",
+      "holdToReveal": "Hold to Reveal",
+      "keepHolding": "Keep holding",
+      "understood": "UNDERSTOOD",
+      "revealing": "Revealing...",
+      "waiting": "Waiting for reveal..."
+    },
+    "rounds": {
+      "title": "Clue Phase",
+      "round": "Round",
+      "rule1": "Starting with the first player, everyone gives <1>ONE</1> clue.",
+      "rule2": "Go clockwise.",
+      "rule3": "Be subtle! Don't give away the word, but don't be too vague.",
+      "next": "NEXT ROUND",
+      "toDiscussion": "GO TO DISCUSSION"
+    },
+    "discussion": {
+      "title": "Discussion",
+      "subtitle": "Find out who the impostor is!",
+      "pause": "PAUSE",
+      "resume": "RESUME",
+      "timeUp": "TIME'S UP!",
+      "voteNow": "Vote now by pointing fingers!",
+      "voteButton": "VOTE FOR THE CULPRIT"
+    },
+    "vote": {
+      "title": "Reveal the Culprit",
+      "subtitle": "Select the player who received the most votes.",
+      "revealButton": "REVEAL IDENTITY"
+    },
+    "impostorGuess": {
+      "found": "{{name}} IS THE IMPOSTOR!",
+      "chance": "But they have a chance to guess the secret word!",
+      "prompt": "The Impostor...",
+      "correct": "GUESSED RIGHT",
+      "wrong": "GUESSED WRONG"
+    },
+    "endgame": {
+      "citizensWin": "CITIZENS WIN!",
+      "impostorWas": "{{name}} was the Impostor!",
+      "impostorWins": "IMPOSTOR WINS!",
+      "secretWord": "Secret Word",
+      "impostorIdentity": "The Impostor was",
+      "playAgain": "PLAY AGAIN",
+      "mainMenu": "MAIN MENU"
+    }
+  },
+  "howToPlay": {
+    "title": "How to Play",
+    "concept": {
+      "title": "1. The Concept",
+      "text": "All players receive the same secret word, except ONE player: the <1>IMPOSTOR</1>."
+    },
+    "clues": {
+      "title": "2. Clues",
+      "text": "In each round, each player must say a single word or short phrase related to the secret word.",
+      "tip": "💡 <1>Tip:</1> Don't be too obvious (the impostor will find out), nor too vague (they'll think you're the impostor)."
+    },
+    "vote": {
+      "title": "3. Single Vote",
+      "text": "After the discussion, the group must vote for ONE person.",
+      "li1": "If you vote for the <1>IMPOSTOR</1>, the Citizens win! (But watch out...)",
+      "li2": "If you vote for an <1>INNOCENT</1>, the Impostor wins immediately!"
+    },
+    "lastChance": {
+      "title": "4. Last Chance",
+      "text": "If the Impostor is discovered, they have one <1>last chance</1>: if they guess the secret word, they steal the victory from the Citizens!"
+    },
+    "specialModes": {
+      "title": "Special Modes",
+      "undercover": {
+        "title": "🕵️ Undercover",
+        "text": "Replaces the Impostor. They receive a word <1>very similar</1> to the citizens', making them much harder to detect."
+      },
+      "confused": {
+        "title": "😵 Confused",
+        "text": "An <1>additional</1> role. Receives a similar word, but is innocent! Plays with the citizens."
+      }
+    },
+    "button": "GOT IT, LET'S PLAY!"
+  },
+  "categories": {
+    "title": "Categories",
+    "new": "New",
+    "edit": "Edit Category",
+    "view": "View Category",
+    "words": "words",
+    "builtIn": "Built-in",
+    "custom": "Custom",
+    "deleteConfirm": "Are you sure you want to delete this category?",
+    "save": "Save",
+    "nameLabel": "Category Name",
+    "namePlaceholder": "e.g. Fruits, Movies...",
+    "iconLabel": "Icon",
+    "wordsLabel": "Words (one per line)",
+    "wordsPlaceholder": "Apple\nBanana\nGrape...",
+    "builtInNotice": "This is a built-in category and cannot be edited.",
+    "errorNoName": "Please enter a category name.",
+    "errorNoWords": "Please enter at least one word."
+  }
+}

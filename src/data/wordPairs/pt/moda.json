@@ -1,0 +1,10 @@
+{
+  "categoryId": "moda",
+  "pairs": [
+    { "citizen": "Camisa", "undercover": "Camiseta" },
+    { "citizen": "Saia", "undercover": "Vestido" },
+    { "citizen": "Sapato", "undercover": "Bota" },
+    { "citizen": "Chapéu", "undercover": "Boné" },
+    { "citizen": "Óculos", "undercover": "Óculos de Sol" }
+  ]
+}

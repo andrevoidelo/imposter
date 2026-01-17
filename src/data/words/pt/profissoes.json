@@ -1,0 +1,15 @@
+{
+  "categoryId": "profissoes",
+  "words": [
+    "Médico", "Enfermeiro", "Cirurgião", "Dentista", "Farmacêutico", "Veterinário", "Professor", "Diretor", "Estudante", "Cientista",
+    "Engenheiro", "Arquiteto", "Programador", "Desenvolvedor", "Designer", "Artista", "Escritor", "Autor", "Jornalista", "Editor",
+    "Fotógrafo", "Cineasta", "Ator", "Músico", "Cantor", "Dançarino", "Chef", "Cozinheiro", "Padeiro", "Garçom",
+    "Barman", "Piloto", "Comissário", "Capitão", "Motorista", "Caminhoneiro", "Taxista", "Mecânico", "Eletricista", "Encanador",
+    "Carpinteiro", "Pedreiro", "Pintor", "Faxineiro", "Zelador", "Jardineiro", "Fazendeiro", "Pescador", "Policial", "Detetive",
+    "Bombeiro", "Soldado", "General", "Guarda", "Advogado", "Juiz", "Político", "Presidente", "Prefeito", "Empresário",
+    "Gerente", "CEO", "Contador", "Banqueiro", "Secretário", "Recepcionista", "Vendedor", "Caixa", "Corretor", "Atleta",
+    "Treinador", "Árbitro", "Bibliotecário", "Historiador", "Arqueólogo", "Psicólogo", "Terapeuta", "Padre", "Pastor", "Monge",
+    "Freira", "Astronauta", "Astrônomo", "Biólogo", "Químico", "Físico", "Geólogo", "Meteorologista", "Cuidador", "Mágico",
+    "Palhaço", "Acrobata", "Modelo", "Estilista", "Barbeiro", "Cabeleireiro", "Maquiador", "Tatuador", "Florista", "Segurança"
+  ]
+}

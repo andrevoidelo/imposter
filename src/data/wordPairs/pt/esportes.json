@@ -1,0 +1,10 @@
+{
+  "categoryId": "esportes",
+  "pairs": [
+    { "citizen": "Futebol", "undercover": "Futsal" },
+    { "citizen": "Tênis", "undercover": "Pingue-pongue" },
+    { "citizen": "Natação", "undercover": "Mergulho" },
+    { "citizen": "Basquete", "undercover": "Vôlei" },
+    { "citizen": "Esqui", "undercover": "Snowboard" }
+  ]
+}
