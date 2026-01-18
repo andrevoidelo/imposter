@@ -8,6 +8,8 @@ import CategoryEditor from './pages/CategoryEditor';
 import { useGameStore } from './contexts/useGameStore';
 import { useEffect } from 'react';
 import { soundService } from './services/soundService';
+import { StatusBar, Style } from '@capacitor/status-bar';
+import { NavigationBar } from '@capgo/capacitor-navigation-bar';
 
 function App() {
   const { settings } = useGameStore();
@@ -27,11 +29,37 @@ function App() {
 
   useEffect(() => {
     const root = window.document.documentElement;
-    if (settings.theme === 'light') {
+    const isLight = settings.theme === 'light';
+    
+    // 1. Update CSS Theme
+    if (isLight) {
       root.classList.add('light');
     } else {
       root.classList.remove('light');
     }
+
+    // 2. Update System Bars (Android)
+    const updateSystemBars = async () => {
+      try {
+        const color = isLight ? '#ffffff' : '#0f172a';
+        const style = isLight ? Style.Light : Style.Dark; // Light = Dark text, Dark = Light text
+
+        // Status Bar
+        await StatusBar.setStyle({ style });
+        await StatusBar.setBackgroundColor({ color });
+        await StatusBar.setOverlaysWebView({ overlay: false });
+
+        // Navigation Bar
+        await NavigationBar.setNavigationBarColor({ 
+          color: color, 
+          darkButtons: isLight 
+        });
+      } catch (e) {
+        // Ignored on web or if plugins missing
+      }
+    };
+
+    updateSystemBars();
   }, [settings.theme]);
 
   return (
