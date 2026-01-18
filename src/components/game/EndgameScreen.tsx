@@ -5,34 +5,26 @@ import { useTranslation } from 'react-i18next';
 import { RotateCcw, Home } from 'lucide-react';
 import { FixedFooter } from '../layout/FixedFooter';
 
-interface EndgameScreenProps {
-  eliminatedPlayerId: string;
-}
-
-export const EndgameScreen = ({ eliminatedPlayerId }: EndgameScreenProps) => {
+export const EndgameScreen = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const { players, winner, secretWord, playAgain, resetGame } = useGameStore();
 
-  const eliminatedPlayer = players.find(p => p.id === eliminatedPlayerId);
   const impostors = players.filter(p => p.role === 'impostor' || p.role === 'undercover' || p.role === 'mrwhite');
   const impostorNames = impostors.map(p => p.name).join(', ');
   
   let bgColor = 'bg-bg-dark';
   let title = '';
-  let subtitle = '';
   let icon = '';
 
   if (winner === 'citizens') {
     bgColor = 'bg-success';
     title = t('game.endgame.citizensWin');
-    subtitle = t('game.endgame.impostorWas', { name: eliminatedPlayer?.name });
     icon = '/mute.svg';
   } else {
     // Impostors win
     bgColor = 'bg-danger';
     title = t('game.endgame.impostorWins');
-    subtitle = '';
     icon = '/spy.svg';
   }
 
@@ -54,7 +46,6 @@ export const EndgameScreen = ({ eliminatedPlayerId }: EndgameScreenProps) => {
           )}
         </div>
         <h1 className="text-4xl font-bold font-display mb-2 leading-tight tracking-tight shrink-0">{title}</h1>
-        {subtitle && <p className="text-xl opacity-90 mb-8 shrink-0">{subtitle}</p>}
         
         <div className="w-full max-w-xs space-y-4 mb-8 shrink-0">
           {/* Impostor Reveal Box */}

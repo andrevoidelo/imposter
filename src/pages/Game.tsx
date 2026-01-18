@@ -88,9 +88,8 @@ export default function Game() {
         );
         
       case 'endgame':
-        const lastEliminated = state.eliminatedPlayers[state.eliminatedPlayers.length - 1];
         return (
-           <EndgameScreen eliminatedPlayerId={lastEliminated} />
+           <EndgameScreen />
         );
 
       default:
