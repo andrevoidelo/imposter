@@ -1,7 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { Button } from './Button';
+import { cn } from '../../utils/cn';
 
-export const LanguageSwitcher = () => {
+interface LanguageSwitcherProps {
+  className?: string;
+  style?: React.CSSProperties;
+}
+
+export const LanguageSwitcher = ({ className, style }: LanguageSwitcherProps) => {
   const { i18n } = useTranslation();
 
   const toggleLanguage = () => {
@@ -23,7 +29,11 @@ export const LanguageSwitcher = () => {
       variant="ghost" 
       size="sm" 
       onClick={toggleLanguage}
-      className="fixed top-4 right-4 z-50 bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 uppercase font-bold text-sm h-10 px-4 gap-2 shadow-lg"
+      className={cn(
+        "fixed right-4 z-50 bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 uppercase font-bold text-sm h-10 px-4 gap-2 shadow-lg",
+        className
+      )}
+      style={{ top: 'calc(var(--safe-area-inset-top, 0px) + 1rem)', ...style }}
     >
       <span>{display.code}</span>
       <span className="text-xl">{display.flag}</span>

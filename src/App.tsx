@@ -41,18 +41,19 @@ function App() {
     // 2. Update System Bars (Android)
     const updateSystemBars = async () => {
       try {
-        const color = isLight ? '#ffffff' : '#0f172a';
+        // Use actual theme background colors
+        const color = isLight ? '#f1f5f9' : '#0f172a';
         const style = isLight ? Style.Light : Style.Dark; // Light = Dark text, Dark = Light text
 
-        // Status Bar
+        // Status Bar - Don't overlay content
+        await StatusBar.setOverlaysWebView({ overlay: false });
         await StatusBar.setStyle({ style });
         await StatusBar.setBackgroundColor({ color });
-        await StatusBar.setOverlaysWebView({ overlay: false });
 
         // Navigation Bar
-        await NavigationBar.setNavigationBarColor({ 
-          color: color, 
-          darkButtons: isLight 
+        await NavigationBar.setNavigationBarColor({
+          color: color,
+          darkButtons: isLight
         });
       } catch (e) {
         // Ignored on web or if plugins missing

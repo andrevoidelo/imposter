@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <PageWrapper className="flex flex-col items-center justify-center min-h-screen" withPadding={false}>
-      <LanguageSwitcher />
+      <LanguageSwitcher style={{ top: 'calc(var(--safe-area-inset-top, 0px) + 1rem)' }} />
       <ThemeSwitcher className="fixed left-4 z-50" style={{ top: 'calc(var(--safe-area-inset-top, 0px) + 1rem)' }} />
       
       <div className="w-full max-w-[320px] flex flex-col items-center justify-center space-y-12">
