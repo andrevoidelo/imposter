@@ -1,10 +1,221 @@
 {
   "categoryId": "entretenimento",
   "pairs": [
-    { "citizen": "Filme", "undercover": "Série" },
-    { "citizen": "Batman", "undercover": "Superman" },
-    { "citizen": "Star Wars", "undercover": "Star Trek" },
-    { "citizen": "Netflix", "undercover": "Cinema" },
-    { "citizen": "Comédia", "undercover": "Drama" }
+    {
+      "citizen": "Filme",
+      "undercover": "Série"
+    },
+    {
+      "citizen": "Batman",
+      "undercover": "Superman"
+    },
+    {
+      "citizen": "Star Wars",
+      "undercover": "Star Trek"
+    },
+    {
+      "citizen": "Netflix",
+      "undercover": "Cinema"
+    },
+    {
+      "citizen": "Comédia",
+      "undercover": "Drama"
+    },
+    {
+      "citizen": "Filme",
+      "undercover": "Cinema"
+    },
+    {
+      "citizen": "Teatro",
+      "undercover": "Ator"
+    },
+    {
+      "citizen": "Atriz",
+      "undercover": "Diretor"
+    },
+    {
+      "citizen": "Produtor",
+      "undercover": "Roteirista"
+    },
+    {
+      "citizen": "Oscar",
+      "undercover": "Hollywood"
+    },
+    {
+      "citizen": "Netflix",
+      "undercover": "Disney"
+    },
+    {
+      "citizen": "Pixar",
+      "undercover": "Marvel"
+    },
+    {
+      "citizen": "DC",
+      "undercover": "Super-herói"
+    },
+    {
+      "citizen": "Vilão",
+      "undercover": "Ação"
+    },
+    {
+      "citizen": "Terror",
+      "undercover": "Suspense"
+    },
+    {
+      "citizen": "Ficção",
+      "undercover": "Fantasia"
+    },
+    {
+      "citizen": "Romance",
+      "undercover": "Animação"
+    },
+    {
+      "citizen": "Documentário",
+      "undercover": "Musical"
+    },
+    {
+      "citizen": "Faroeste",
+      "undercover": "Harry Potter"
+    },
+    {
+      "citizen": "Star Wars",
+      "undercover": "Senhor dos Anéis"
+    },
+    {
+      "citizen": "Vingadores",
+      "undercover": "Batman"
+    },
+    {
+      "citizen": "Superman",
+      "undercover": "Homem-Aranha"
+    },
+    {
+      "citizen": "Mulher Maravilha",
+      "undercover": "Homem de Ferro"
+    },
+    {
+      "citizen": "Capitão América",
+      "undercover": "Thor"
+    },
+    {
+      "citizen": "Hulk",
+      "undercover": "Pantera Negra"
+    },
+    {
+      "citizen": "Coringa",
+      "undercover": "Thanos"
+    },
+    {
+      "citizen": "Darth Vader",
+      "undercover": "Luke Skywalker"
+    },
+    {
+      "citizen": "Yoda",
+      "undercover": "Hermione"
+    },
+    {
+      "citizen": "Rony",
+      "undercover": "Dumbledore"
+    },
+    {
+      "citizen": "Voldemort",
+      "undercover": "Titanic"
+    },
+    {
+      "citizen": "Avatar",
+      "undercover": "Jurassic Park"
+    },
+    {
+      "citizen": "Rei Leão",
+      "undercover": "Frozen"
+    },
+    {
+      "citizen": "Toy Story",
+      "undercover": "Shrek"
+    },
+    {
+      "citizen": "Procurando Nemo",
+      "undercover": "Incríveis"
+    },
+    {
+      "citizen": "Matrix",
+      "undercover": "A Origem"
+    },
+    {
+      "citizen": "Interestelar",
+      "undercover": "O Poderoso Chefão"
+    },
+    {
+      "citizen": "Pulp Fiction",
+      "undercover": "Clube da Luta"
+    },
+    {
+      "citizen": "Forrest Gump",
+      "undercover": "Gladiador"
+    },
+    {
+      "citizen": "Rocky",
+      "undercover": "Exterminador"
+    },
+    {
+      "citizen": "Alien",
+      "undercover": "Predador"
+    },
+    {
+      "citizen": "Tubarão",
+      "undercover": "De Volta para o Futuro"
+    },
+    {
+      "citizen": "Indiana Jones",
+      "undercover": "Caça-Fantasmas"
+    },
+    {
+      "citizen": "E.T.",
+      "undercover": "Esqueceram de Mim"
+    },
+    {
+      "citizen": "Gremlins",
+      "undercover": "Friends"
+    },
+    {
+      "citizen": "The Office",
+      "undercover": "Game of Thrones"
+    },
+    {
+      "citizen": "Breaking Bad",
+      "undercover": "Stranger Things"
+    },
+    {
+      "citizen": "The Crown",
+      "undercover": "Walking Dead"
+    },
+    {
+      "citizen": "Simpsons",
+      "undercover": "Uma Família da Pesada"
+    },
+    {
+      "citizen": "Bob Esponja",
+      "undercover": "Mickey Mouse"
+    },
+    {
+      "citizen": "Pato Donald",
+      "undercover": "Pateta"
+    },
+    {
+      "citizen": "Pernalonga",
+      "undercover": "Tom e Jerry"
+    },
+    {
+      "citizen": "Scooby Doo",
+      "undercover": "Pokemon"
+    },
+    {
+      "citizen": "Mario",
+      "undercover": "Sonic"
+    },
+    {
+      "citizen": "Pikachu",
+      "undercover": "Naruto"
+    }
   ]
 }

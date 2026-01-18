@@ -1,10 +1,205 @@
 {
   "categoryId": "transportes",
   "pairs": [
-    { "citizen": "Carro", "undercover": "Táxi" },
-    { "citizen": "Ônibus", "undercover": "Trem" },
-    { "citizen": "Avião", "undercover": "Helicóptero" },
-    { "citizen": "Barco", "undercover": "Navio" },
-    { "citizen": "Bicicleta", "undercover": "Moto" }
+    {
+      "citizen": "Carro",
+      "undercover": "Táxi"
+    },
+    {
+      "citizen": "Ônibus",
+      "undercover": "Trem"
+    },
+    {
+      "citizen": "Avião",
+      "undercover": "Helicóptero"
+    },
+    {
+      "citizen": "Barco",
+      "undercover": "Navio"
+    },
+    {
+      "citizen": "Bicicleta",
+      "undercover": "Moto"
+    },
+    {
+      "citizen": "Carro",
+      "undercover": "Ônibus"
+    },
+    {
+      "citizen": "Caminhão",
+      "undercover": "Van"
+    },
+    {
+      "citizen": "Skate",
+      "undercover": "Patins"
+    },
+    {
+      "citizen": "Trem",
+      "undercover": "Metrô"
+    },
+    {
+      "citizen": "Bonde",
+      "undercover": "Táxi"
+    },
+    {
+      "citizen": "Uber",
+      "undercover": "Limusine"
+    },
+    {
+      "citizen": "Ambulância",
+      "undercover": "Viatura"
+    },
+    {
+      "citizen": "Trator",
+      "undercover": "Escavadeira"
+    },
+    {
+      "citizen": "Guindaste",
+      "undercover": "Tanque"
+    },
+    {
+      "citizen": "Jipe",
+      "undercover": "Avião"
+    },
+    {
+      "citizen": "Jato",
+      "undercover": "Helicóptero"
+    },
+    {
+      "citizen": "Planador",
+      "undercover": "Drone"
+    },
+    {
+      "citizen": "Foguete",
+      "undercover": "Espaçonave"
+    },
+    {
+      "citizen": "OVNI",
+      "undercover": "Balão"
+    },
+    {
+      "citizen": "Dirigível",
+      "undercover": "Paraquedas"
+    },
+    {
+      "citizen": "Iate",
+      "undercover": "Balsa"
+    },
+    {
+      "citizen": "Cruzeiro",
+      "undercover": "Submarino"
+    },
+    {
+      "citizen": "Canoa",
+      "undercover": "Caiaque"
+    },
+    {
+      "citizen": "Jangada",
+      "undercover": "Veleiro"
+    },
+    {
+      "citizen": "Lancha",
+      "undercover": "Jet Ski"
+    },
+    {
+      "citizen": "Teleférico",
+      "undercover": "Cavalo"
+    },
+    {
+      "citizen": "Camelo",
+      "undercover": "Elefante"
+    },
+    {
+      "citizen": "Carruagem",
+      "undercover": "Carroça"
+    },
+    {
+      "citizen": "Triciclo",
+      "undercover": "Mobilete"
+    },
+    {
+      "citizen": "Trailer",
+      "undercover": "Motorhome"
+    },
+    {
+      "citizen": "Conversível",
+      "undercover": "Sedã"
+    },
+    {
+      "citizen": "Picape",
+      "undercover": "Motor"
+    },
+    {
+      "citizen": "Roda",
+      "undercover": "Pneu"
+    },
+    {
+      "citizen": "Volante",
+      "undercover": "Banco"
+    },
+    {
+      "citizen": "Porta",
+      "undercover": "Janela"
+    },
+    {
+      "citizen": "Espelho",
+      "undercover": "Farol"
+    },
+    {
+      "citizen": "Freio",
+      "undercover": "Acelerador"
+    },
+    {
+      "citizen": "Marcha",
+      "undercover": "Combustível"
+    },
+    {
+      "citizen": "Gasolina",
+      "undercover": "Elétrico"
+    },
+    {
+      "citizen": "Híbrido",
+      "undercover": "Estacionamento"
+    },
+    {
+      "citizen": "Garagem",
+      "undercover": "Posto"
+    },
+    {
+      "citizen": "Oficina",
+      "undercover": "Pedágio"
+    },
+    {
+      "citizen": "Trânsito",
+      "undercover": "Semaforo"
+    },
+    {
+      "citizen": "Placa",
+      "undercover": "Cruzamento"
+    },
+    {
+      "citizen": "Estrada",
+      "undercover": "Rodovia"
+    },
+    {
+      "citizen": "Ponte",
+      "undercover": "Túnel"
+    },
+    {
+      "citizen": "Pista",
+      "undercover": "Trilho"
+    },
+    {
+      "citizen": "Porto",
+      "undercover": "Aeroporto"
+    },
+    {
+      "citizen": "Carro",
+      "undercover": "Caminhão"
+    },
+    {
+      "citizen": "Ônibus",
+      "undercover": "Van"
+    }
   ]
 }

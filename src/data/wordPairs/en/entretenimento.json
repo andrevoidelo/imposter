@@ -1,10 +1,221 @@
 {
   "categoryId": "entretenimento",
   "pairs": [
-    { "citizen": "Movie", "undercover": "Series" },
-    { "citizen": "Batman", "undercover": "Superman" },
-    { "citizen": "Star Wars", "undercover": "Star Trek" },
-    { "citizen": "Netflix", "undercover": "Cinema" },
-    { "citizen": "Comedy", "undercover": "Drama" }
+    {
+      "citizen": "Movie",
+      "undercover": "Series"
+    },
+    {
+      "citizen": "Batman",
+      "undercover": "Superman"
+    },
+    {
+      "citizen": "Star Wars",
+      "undercover": "Star Trek"
+    },
+    {
+      "citizen": "Netflix",
+      "undercover": "Cinema"
+    },
+    {
+      "citizen": "Comedy",
+      "undercover": "Drama"
+    },
+    {
+      "citizen": "Movie",
+      "undercover": "Film"
+    },
+    {
+      "citizen": "Cinema",
+      "undercover": "Theater"
+    },
+    {
+      "citizen": "Actor",
+      "undercover": "Actress"
+    },
+    {
+      "citizen": "Director",
+      "undercover": "Producer"
+    },
+    {
+      "citizen": "Screenwriter",
+      "undercover": "Oscar"
+    },
+    {
+      "citizen": "Hollywood",
+      "undercover": "Netflix"
+    },
+    {
+      "citizen": "Disney",
+      "undercover": "Pixar"
+    },
+    {
+      "citizen": "Marvel",
+      "undercover": "DC"
+    },
+    {
+      "citizen": "Superhero",
+      "undercover": "Villain"
+    },
+    {
+      "citizen": "Action",
+      "undercover": "Comedy"
+    },
+    {
+      "citizen": "Drama",
+      "undercover": "Horror"
+    },
+    {
+      "citizen": "Thriller",
+      "undercover": "Sci-Fi"
+    },
+    {
+      "citizen": "Fantasy",
+      "undercover": "Romance"
+    },
+    {
+      "citizen": "Animation",
+      "undercover": "Documentary"
+    },
+    {
+      "citizen": "Musical",
+      "undercover": "Western"
+    },
+    {
+      "citizen": "Harry Potter",
+      "undercover": "Star Wars"
+    },
+    {
+      "citizen": "Lord of the Rings",
+      "undercover": "Avengers"
+    },
+    {
+      "citizen": "Spiderman",
+      "undercover": "Wonder Woman"
+    },
+    {
+      "citizen": "Iron Man",
+      "undercover": "Captain America"
+    },
+    {
+      "citizen": "Thor",
+      "undercover": "Hulk"
+    },
+    {
+      "citizen": "Black Panther",
+      "undercover": "Joker"
+    },
+    {
+      "citizen": "Thanos",
+      "undercover": "Darth Vader"
+    },
+    {
+      "citizen": "Luke Skywalker",
+      "undercover": "Yoda"
+    },
+    {
+      "citizen": "Hermione",
+      "undercover": "Ron"
+    },
+    {
+      "citizen": "Dumbledore",
+      "undercover": "Voldemort"
+    },
+    {
+      "citizen": "Titanic",
+      "undercover": "Avatar"
+    },
+    {
+      "citizen": "Jurassic Park",
+      "undercover": "Lion King"
+    },
+    {
+      "citizen": "Frozen",
+      "undercover": "Toy Story"
+    },
+    {
+      "citizen": "Shrek",
+      "undercover": "Finding Nemo"
+    },
+    {
+      "citizen": "Incredibles",
+      "undercover": "Matrix"
+    },
+    {
+      "citizen": "Inception",
+      "undercover": "Interstellar"
+    },
+    {
+      "citizen": "Godfather",
+      "undercover": "Pulp Fiction"
+    },
+    {
+      "citizen": "Fight Club",
+      "undercover": "Forrest Gump"
+    },
+    {
+      "citizen": "Gladiator",
+      "undercover": "Rocky"
+    },
+    {
+      "citizen": "Terminator",
+      "undercover": "Alien"
+    },
+    {
+      "citizen": "Predator",
+      "undercover": "Jaws"
+    },
+    {
+      "citizen": "Back to the Future",
+      "undercover": "Indiana Jones"
+    },
+    {
+      "citizen": "Ghostbusters",
+      "undercover": "E.T."
+    },
+    {
+      "citizen": "Home Alone",
+      "undercover": "Gremlins"
+    },
+    {
+      "citizen": "Friends",
+      "undercover": "The Office"
+    },
+    {
+      "citizen": "Game of Thrones",
+      "undercover": "Breaking Bad"
+    },
+    {
+      "citizen": "Stranger Things",
+      "undercover": "Crown"
+    },
+    {
+      "citizen": "Walking Dead",
+      "undercover": "Simpsons"
+    },
+    {
+      "citizen": "Family Guy",
+      "undercover": "SpongeBob"
+    },
+    {
+      "citizen": "Mickey Mouse",
+      "undercover": "Donald Duck"
+    },
+    {
+      "citizen": "Goofy",
+      "undercover": "Bugs Bunny"
+    },
+    {
+      "citizen": "Tom & Jerry",
+      "undercover": "Scooby Doo"
+    },
+    {
+      "citizen": "Pokemon",
+      "undercover": "Mario"
+    },
+    {
+      "citizen": "Sonic",
+      "undercover": "Pikachu"
+    }
   ]
 }

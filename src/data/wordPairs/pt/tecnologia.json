@@ -1,10 +1,225 @@
 {
   "categoryId": "tecnologia",
   "pairs": [
-    { "citizen": "Notebook", "undercover": "Tablet" },
-    { "citizen": "Celular", "undercover": "Relógio" },
-    { "citizen": "Wifi", "undercover": "Internet" },
-    { "citizen": "App", "undercover": "Site" },
-    { "citizen": "Robô", "undercover": "IA" }
+    {
+      "citizen": "Notebook",
+      "undercover": "Tablet"
+    },
+    {
+      "citizen": "Celular",
+      "undercover": "Relógio"
+    },
+    {
+      "citizen": "Wifi",
+      "undercover": "Internet"
+    },
+    {
+      "citizen": "App",
+      "undercover": "Site"
+    },
+    {
+      "citizen": "Robô",
+      "undercover": "IA"
+    },
+    {
+      "citizen": "Computador",
+      "undercover": "PC"
+    },
+    {
+      "citizen": "Notebook",
+      "undercover": "Desktop"
+    },
+    {
+      "citizen": "Mac",
+      "undercover": "Tablet"
+    },
+    {
+      "citizen": "iPad",
+      "undercover": "Celular"
+    },
+    {
+      "citizen": "Smartphone",
+      "undercover": "iPhone"
+    },
+    {
+      "citizen": "Android",
+      "undercover": "Smartwatch"
+    },
+    {
+      "citizen": "Relógio",
+      "undercover": "TV"
+    },
+    {
+      "citizen": "Televisão",
+      "undercover": "Rádio"
+    },
+    {
+      "citizen": "Caixa de Som",
+      "undercover": "Fone de Ouvido"
+    },
+    {
+      "citizen": "Microfone",
+      "undercover": "Câmera"
+    },
+    {
+      "citizen": "Webcam",
+      "undercover": "Drone"
+    },
+    {
+      "citizen": "Robô",
+      "undercover": "Bot"
+    },
+    {
+      "citizen": "Console",
+      "undercover": "PlayStation"
+    },
+    {
+      "citizen": "Xbox",
+      "undercover": "Nintendo"
+    },
+    {
+      "citizen": "Switch",
+      "undercover": "Controle"
+    },
+    {
+      "citizen": "Joystick",
+      "undercover": "Teclado"
+    },
+    {
+      "citizen": "Mouse",
+      "undercover": "Tela"
+    },
+    {
+      "citizen": "Monitor",
+      "undercover": "Impressora"
+    },
+    {
+      "citizen": "Scanner",
+      "undercover": "Projetor"
+    },
+    {
+      "citizen": "Roteador",
+      "undercover": "Modem"
+    },
+    {
+      "citizen": "WiFi",
+      "undercover": "Internet"
+    },
+    {
+      "citizen": "Web",
+      "undercover": "Nuvem"
+    },
+    {
+      "citizen": "Servidor",
+      "undercover": "Banco de Dados"
+    },
+    {
+      "citizen": "Software",
+      "undercover": "Hardware"
+    },
+    {
+      "citizen": "Aplicativo",
+      "undercover": "App"
+    },
+    {
+      "citizen": "Programa",
+      "undercover": "Jogo"
+    },
+    {
+      "citizen": "Videogame",
+      "undercover": "Site"
+    },
+    {
+      "citizen": "Email",
+      "undercover": "Chat"
+    },
+    {
+      "citizen": "Mensagem",
+      "undercover": "Rede Social"
+    },
+    {
+      "citizen": "Facebook",
+      "undercover": "Instagram"
+    },
+    {
+      "citizen": "Twitter",
+      "undercover": "TikTok"
+    },
+    {
+      "citizen": "YouTube",
+      "undercover": "Google"
+    },
+    {
+      "citizen": "Amazon",
+      "undercover": "Apple"
+    },
+    {
+      "citizen": "Microsoft",
+      "undercover": "Código"
+    },
+    {
+      "citizen": "Programação",
+      "undercover": "Algoritmo"
+    },
+    {
+      "citizen": "Bug",
+      "undercover": "Vírus"
+    },
+    {
+      "citizen": "Hacker",
+      "undercover": "Senha"
+    },
+    {
+      "citizen": "Login",
+      "undercover": "IA"
+    },
+    {
+      "citizen": "Inteligência Artificial",
+      "undercover": "Realidade Virtual"
+    },
+    {
+      "citizen": "Realidade Aumentada",
+      "undercover": "Metaverso"
+    },
+    {
+      "citizen": "Blockchain",
+      "undercover": "Bitcoin"
+    },
+    {
+      "citizen": "Cripto",
+      "undercover": "NFT"
+    },
+    {
+      "citizen": "Satélite",
+      "undercover": "Foguete"
+    },
+    {
+      "citizen": "Telescópio",
+      "undercover": "Microscópio"
+    },
+    {
+      "citizen": "Laser",
+      "undercover": "Bateria"
+    },
+    {
+      "citizen": "Carregador",
+      "undercover": "Cabo"
+    },
+    {
+      "citizen": "USB",
+      "undercover": "Bluetooth"
+    },
+    {
+      "citizen": "HDMI",
+      "undercover": "Chip"
+    },
+    {
+      "citizen": "Processador",
+      "undercover": "CPU"
+    },
+    {
+      "citizen": "GPU",
+      "undercover": "Memória"
+    }
   ]
 }

@@ -1,10 +1,217 @@
 {
   "categoryId": "moda",
   "pairs": [
-    { "citizen": "Shirt", "undercover": "T-Shirt" },
-    { "citizen": "Skirt", "undercover": "Dress" },
-    { "citizen": "Shoes", "undercover": "Boots" },
-    { "citizen": "Hat", "undercover": "Cap" },
-    { "citizen": "Glasses", "undercover": "Sunglasses" }
+    {
+      "citizen": "Shirt",
+      "undercover": "T-Shirt"
+    },
+    {
+      "citizen": "Skirt",
+      "undercover": "Dress"
+    },
+    {
+      "citizen": "Shoes",
+      "undercover": "Boots"
+    },
+    {
+      "citizen": "Hat",
+      "undercover": "Cap"
+    },
+    {
+      "citizen": "Glasses",
+      "undercover": "Sunglasses"
+    },
+    {
+      "citizen": "Blouse",
+      "undercover": "Top"
+    },
+    {
+      "citizen": "Sweater",
+      "undercover": "Jumper"
+    },
+    {
+      "citizen": "Hoodie",
+      "undercover": "Cardigan"
+    },
+    {
+      "citizen": "Vest",
+      "undercover": "Jacket"
+    },
+    {
+      "citizen": "Coat",
+      "undercover": "Overcoat"
+    },
+    {
+      "citizen": "Raincoat",
+      "undercover": "Parka"
+    },
+    {
+      "citizen": "Blazer",
+      "undercover": "Suit"
+    },
+    {
+      "citizen": "Tuxedo",
+      "undercover": "Dress"
+    },
+    {
+      "citizen": "Gown",
+      "undercover": "Skirt"
+    },
+    {
+      "citizen": "Pants",
+      "undercover": "Trousers"
+    },
+    {
+      "citizen": "Jeans",
+      "undercover": "Shorts"
+    },
+    {
+      "citizen": "Leggings",
+      "undercover": "Tights"
+    },
+    {
+      "citizen": "Underwear",
+      "undercover": "Panties"
+    },
+    {
+      "citizen": "Boxers",
+      "undercover": "Briefs"
+    },
+    {
+      "citizen": "Bra",
+      "undercover": "Socks"
+    },
+    {
+      "citizen": "Stockings",
+      "undercover": "Pajamas"
+    },
+    {
+      "citizen": "Nightgown",
+      "undercover": "Robe"
+    },
+    {
+      "citizen": "Swimsuit",
+      "undercover": "Bikini"
+    },
+    {
+      "citizen": "Trunks",
+      "undercover": "Uniform"
+    },
+    {
+      "citizen": "Costume",
+      "undercover": "Shoes"
+    },
+    {
+      "citizen": "Sneakers",
+      "undercover": "Trainers"
+    },
+    {
+      "citizen": "Boots",
+      "undercover": "Sandals"
+    },
+    {
+      "citizen": "Flip Flops",
+      "undercover": "Slippers"
+    },
+    {
+      "citizen": "Heels",
+      "undercover": "Flats"
+    },
+    {
+      "citizen": "Beanie",
+      "undercover": "Beret"
+    },
+    {
+      "citizen": "Helmet",
+      "undercover": "Scarf"
+    },
+    {
+      "citizen": "Gloves",
+      "undercover": "Mittens"
+    },
+    {
+      "citizen": "Tie",
+      "undercover": "Bowtie"
+    },
+    {
+      "citizen": "Belt",
+      "undercover": "Suspenders"
+    },
+    {
+      "citizen": "Wallet",
+      "undercover": "Purse"
+    },
+    {
+      "citizen": "Handbag",
+      "undercover": "Backpack"
+    },
+    {
+      "citizen": "Bag",
+      "undercover": "Suitcase"
+    },
+    {
+      "citizen": "Luggage",
+      "undercover": "Glasses"
+    },
+    {
+      "citizen": "Sunglasses",
+      "undercover": "Watch"
+    },
+    {
+      "citizen": "Jewelry",
+      "undercover": "Necklace"
+    },
+    {
+      "citizen": "Bracelet",
+      "undercover": "Ring"
+    },
+    {
+      "citizen": "Earrings",
+      "undercover": "Piercing"
+    },
+    {
+      "citizen": "Tattoo",
+      "undercover": "Makeup"
+    },
+    {
+      "citizen": "Lipstick",
+      "undercover": "Perfume"
+    },
+    {
+      "citizen": "Cologne",
+      "undercover": "Hair"
+    },
+    {
+      "citizen": "Hairstyle",
+      "undercover": "Wig"
+    },
+    {
+      "citizen": "Beard",
+      "undercover": "Mustache"
+    },
+    {
+      "citizen": "Mask",
+      "undercover": "Umbrella"
+    },
+    {
+      "citizen": "Cotton",
+      "undercover": "Wool"
+    },
+    {
+      "citizen": "Silk",
+      "undercover": "Leather"
+    },
+    {
+      "citizen": "Denim",
+      "undercover": "Velvet"
+    },
+    {
+      "citizen": "Linen",
+      "undercover": "Nylon"
+    },
+    {
+      "citizen": "Polyester",
+      "undercover": "Fur"
+    }
   ]
 }

@@ -1,10 +1,241 @@
 {
   "categoryId": "esportes",
   "pairs": [
-    { "citizen": "Soccer", "undercover": "Rugby" },
-    { "citizen": "Tennis", "undercover": "Badminton" },
-    { "citizen": "Swimming", "undercover": "Diving" },
-    { "citizen": "Basketball", "undercover": "Volleyball" },
-    { "citizen": "Skiing", "undercover": "Snowboarding" }
+    {
+      "citizen": "Soccer",
+      "undercover": "Rugby"
+    },
+    {
+      "citizen": "Tennis",
+      "undercover": "Badminton"
+    },
+    {
+      "citizen": "Swimming",
+      "undercover": "Diving"
+    },
+    {
+      "citizen": "Basketball",
+      "undercover": "Volleyball"
+    },
+    {
+      "citizen": "Skiing",
+      "undercover": "Snowboarding"
+    },
+    {
+      "citizen": "Soccer",
+      "undercover": "Football"
+    },
+    {
+      "citizen": "Basketball",
+      "undercover": "Baseball"
+    },
+    {
+      "citizen": "Volleyball",
+      "undercover": "Tennis"
+    },
+    {
+      "citizen": "Golf",
+      "undercover": "Rugby"
+    },
+    {
+      "citizen": "Cricket",
+      "undercover": "Hockey"
+    },
+    {
+      "citizen": "Badminton",
+      "undercover": "Table Tennis"
+    },
+    {
+      "citizen": "Ping Pong",
+      "undercover": "Squash"
+    },
+    {
+      "citizen": "Handball",
+      "undercover": "Boxing"
+    },
+    {
+      "citizen": "Wrestling",
+      "undercover": "MMA"
+    },
+    {
+      "citizen": "Judo",
+      "undercover": "Karate"
+    },
+    {
+      "citizen": "Taekwondo",
+      "undercover": "Kung Fu"
+    },
+    {
+      "citizen": "Fencing",
+      "undercover": "Swimming"
+    },
+    {
+      "citizen": "Diving",
+      "undercover": "Surfing"
+    },
+    {
+      "citizen": "Sailing",
+      "undercover": "Rowing"
+    },
+    {
+      "citizen": "Canoeing",
+      "undercover": "Kayaking"
+    },
+    {
+      "citizen": "Water Polo",
+      "undercover": "Cycling"
+    },
+    {
+      "citizen": "Biking",
+      "undercover": "Running"
+    },
+    {
+      "citizen": "Jogging",
+      "undercover": "Marathon"
+    },
+    {
+      "citizen": "Sprint",
+      "undercover": "Athletics"
+    },
+    {
+      "citizen": "Gymnastics",
+      "undercover": "Yoga"
+    },
+    {
+      "citizen": "Pilates",
+      "undercover": "Aerobics"
+    },
+    {
+      "citizen": "Fitness",
+      "undercover": "Crossfit"
+    },
+    {
+      "citizen": "Weightlifting",
+      "undercover": "Bodybuilding"
+    },
+    {
+      "citizen": "Climbing",
+      "undercover": "Hiking"
+    },
+    {
+      "citizen": "Trekking",
+      "undercover": "Camping"
+    },
+    {
+      "citizen": "Skating",
+      "undercover": "Ice Skating"
+    },
+    {
+      "citizen": "Rollerblading",
+      "undercover": "Skateboarding"
+    },
+    {
+      "citizen": "Surfing",
+      "undercover": "Bowling"
+    },
+    {
+      "citizen": "Billiards",
+      "undercover": "Pool"
+    },
+    {
+      "citizen": "Darts",
+      "undercover": "Archery"
+    },
+    {
+      "citizen": "Shooting",
+      "undercover": "Hunting"
+    },
+    {
+      "citizen": "Fishing",
+      "undercover": "Horse Riding"
+    },
+    {
+      "citizen": "Racing",
+      "undercover": "Formula 1"
+    },
+    {
+      "citizen": "MotoGP",
+      "undercover": "Rally"
+    },
+    {
+      "citizen": "Karting",
+      "undercover": "Drifting"
+    },
+    {
+      "citizen": "Chess",
+      "undercover": "Poker"
+    },
+    {
+      "citizen": "Cards",
+      "undercover": "Video Games"
+    },
+    {
+      "citizen": "Esports",
+      "undercover": "Referee"
+    },
+    {
+      "citizen": "Umpire",
+      "undercover": "Coach"
+    },
+    {
+      "citizen": "Team",
+      "undercover": "Player"
+    },
+    {
+      "citizen": "Captain",
+      "undercover": "Goalkeeper"
+    },
+    {
+      "citizen": "Defender",
+      "undercover": "Midfielder"
+    },
+    {
+      "citizen": "Striker",
+      "undercover": "Forward"
+    },
+    {
+      "citizen": "Quarterback",
+      "undercover": "Pitcher"
+    },
+    {
+      "citizen": "Ball",
+      "undercover": "Bat"
+    },
+    {
+      "citizen": "Racket",
+      "undercover": "Club"
+    },
+    {
+      "citizen": "Stick",
+      "undercover": "Helmet"
+    },
+    {
+      "citizen": "Gloves",
+      "undercover": "Boots"
+    },
+    {
+      "citizen": "Jersey",
+      "undercover": "Shorts"
+    },
+    {
+      "citizen": "Stadium",
+      "undercover": "Arena"
+    },
+    {
+      "citizen": "Field",
+      "undercover": "Pitch"
+    },
+    {
+      "citizen": "Court",
+      "undercover": "Track"
+    },
+    {
+      "citizen": "Pool",
+      "undercover": "Gym"
+    },
+    {
+      "citizen": "Ring",
+      "undercover": "Mat"
+    }
   ]
 }

@@ -1,10 +1,245 @@
 {
   "categoryId": "tecnologia",
   "pairs": [
-    { "citizen": "Laptop", "undercover": "Tablet" },
-    { "citizen": "Phone", "undercover": "Watch" },
-    { "citizen": "Wifi", "undercover": "Internet" },
-    { "citizen": "App", "undercover": "Website" },
-    { "citizen": "Robot", "undercover": "AI" }
+    {
+      "citizen": "Laptop",
+      "undercover": "Tablet"
+    },
+    {
+      "citizen": "Phone",
+      "undercover": "Watch"
+    },
+    {
+      "citizen": "Wifi",
+      "undercover": "Internet"
+    },
+    {
+      "citizen": "App",
+      "undercover": "Website"
+    },
+    {
+      "citizen": "Robot",
+      "undercover": "AI"
+    },
+    {
+      "citizen": "Computer",
+      "undercover": "PC"
+    },
+    {
+      "citizen": "Laptop",
+      "undercover": "Desktop"
+    },
+    {
+      "citizen": "Mac",
+      "undercover": "Tablet"
+    },
+    {
+      "citizen": "iPad",
+      "undercover": "Phone"
+    },
+    {
+      "citizen": "Smartphone",
+      "undercover": "iPhone"
+    },
+    {
+      "citizen": "Android",
+      "undercover": "Smartwatch"
+    },
+    {
+      "citizen": "Watch",
+      "undercover": "TV"
+    },
+    {
+      "citizen": "Television",
+      "undercover": "Radio"
+    },
+    {
+      "citizen": "Speaker",
+      "undercover": "Headphones"
+    },
+    {
+      "citizen": "Earphones",
+      "undercover": "Microphone"
+    },
+    {
+      "citizen": "Camera",
+      "undercover": "Webcam"
+    },
+    {
+      "citizen": "Drone",
+      "undercover": "Robot"
+    },
+    {
+      "citizen": "Bot",
+      "undercover": "Console"
+    },
+    {
+      "citizen": "PlayStation",
+      "undercover": "Xbox"
+    },
+    {
+      "citizen": "Nintendo",
+      "undercover": "Switch"
+    },
+    {
+      "citizen": "Controller",
+      "undercover": "Joystick"
+    },
+    {
+      "citizen": "Keyboard",
+      "undercover": "Mouse"
+    },
+    {
+      "citizen": "Screen",
+      "undercover": "Monitor"
+    },
+    {
+      "citizen": "Display",
+      "undercover": "Printer"
+    },
+    {
+      "citizen": "Scanner",
+      "undercover": "Projector"
+    },
+    {
+      "citizen": "Router",
+      "undercover": "Modem"
+    },
+    {
+      "citizen": "WiFi",
+      "undercover": "Internet"
+    },
+    {
+      "citizen": "Web",
+      "undercover": "Cloud"
+    },
+    {
+      "citizen": "Server",
+      "undercover": "Database"
+    },
+    {
+      "citizen": "Software",
+      "undercover": "Hardware"
+    },
+    {
+      "citizen": "App",
+      "undercover": "Application"
+    },
+    {
+      "citizen": "Program",
+      "undercover": "Game"
+    },
+    {
+      "citizen": "Video Game",
+      "undercover": "Website"
+    },
+    {
+      "citizen": "Site",
+      "undercover": "Email"
+    },
+    {
+      "citizen": "Chat",
+      "undercover": "Message"
+    },
+    {
+      "citizen": "Social Media",
+      "undercover": "Facebook"
+    },
+    {
+      "citizen": "Instagram",
+      "undercover": "Twitter"
+    },
+    {
+      "citizen": "TikTok",
+      "undercover": "YouTube"
+    },
+    {
+      "citizen": "Google",
+      "undercover": "Amazon"
+    },
+    {
+      "citizen": "Apple",
+      "undercover": "Microsoft"
+    },
+    {
+      "citizen": "Code",
+      "undercover": "Coding"
+    },
+    {
+      "citizen": "Programming",
+      "undercover": "Algorithm"
+    },
+    {
+      "citizen": "Bug",
+      "undercover": "Virus"
+    },
+    {
+      "citizen": "Hacker",
+      "undercover": "Cybersecurity"
+    },
+    {
+      "citizen": "Password",
+      "undercover": "Login"
+    },
+    {
+      "citizen": "AI",
+      "undercover": "Artificial Intelligence"
+    },
+    {
+      "citizen": "VR",
+      "undercover": "Virtual Reality"
+    },
+    {
+      "citizen": "AR",
+      "undercover": "Augmented Reality"
+    },
+    {
+      "citizen": "Metaverse",
+      "undercover": "Blockchain"
+    },
+    {
+      "citizen": "Bitcoin",
+      "undercover": "Crypto"
+    },
+    {
+      "citizen": "NFT",
+      "undercover": "Satellite"
+    },
+    {
+      "citizen": "Rocket",
+      "undercover": "Space Station"
+    },
+    {
+      "citizen": "Telescope",
+      "undercover": "Microscope"
+    },
+    {
+      "citizen": "Laser",
+      "undercover": "Battery"
+    },
+    {
+      "citizen": "Charger",
+      "undercover": "Cable"
+    },
+    {
+      "citizen": "USB",
+      "undercover": "Bluetooth"
+    },
+    {
+      "citizen": "HDMI",
+      "undercover": "Chip"
+    },
+    {
+      "citizen": "Processor",
+      "undercover": "CPU"
+    },
+    {
+      "citizen": "GPU",
+      "undercover": "RAM"
+    },
+    {
+      "citizen": "Memory",
+      "undercover": "Disk"
+    }
   ]
 }

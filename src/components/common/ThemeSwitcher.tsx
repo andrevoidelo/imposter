@@ -21,15 +21,15 @@ export const ThemeSwitcher = ({ className, style }: ThemeSwitcherProps) => {
       size="sm" 
       onClick={toggleTheme}
       className={cn(
-        "bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 h-8 w-10 px-0 flex items-center justify-center",
+        "bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 h-10 w-12 px-0 flex items-center justify-center shadow-lg",
         className
       )}
       style={style}
     >
       {settings.theme === 'dark' ? (
-        <Moon size={18} className="text-primary-400" />
+        <Moon size={20} className="text-primary-400" />
       ) : (
-        <Sun size={18} className="text-warning" />
+        <Sun size={20} className="text-warning" />
       )}
     </Button>
   );

@@ -1,10 +1,217 @@
 {
   "categoryId": "alimentos",
   "pairs": [
-    { "citizen": "Pizza", "undercover": "Hambúrguer" },
-    { "citizen": "Café", "undercover": "Chá" },
-    { "citizen": "Sorvete", "undercover": "Picolé" },
-    { "citizen": "Bolo", "undercover": "Torta" },
-    { "citizen": "Arroz", "undercover": "Macarrão" }
+    {
+      "citizen": "Pizza",
+      "undercover": "Hambúrguer"
+    },
+    {
+      "citizen": "Café",
+      "undercover": "Chá"
+    },
+    {
+      "citizen": "Sorvete",
+      "undercover": "Picolé"
+    },
+    {
+      "citizen": "Bolo",
+      "undercover": "Torta"
+    },
+    {
+      "citizen": "Arroz",
+      "undercover": "Macarrão"
+    },
+    {
+      "citizen": "Sanduíche",
+      "undercover": "Cachorro-quente"
+    },
+    {
+      "citizen": "Taco",
+      "undercover": "Burrito"
+    },
+    {
+      "citizen": "Sushi",
+      "undercover": "Macarrão"
+    },
+    {
+      "citizen": "Espaguete",
+      "undercover": "Lasanha"
+    },
+    {
+      "citizen": "Arroz",
+      "undercover": "Feijão"
+    },
+    {
+      "citizen": "Pão",
+      "undercover": "Torrada"
+    },
+    {
+      "citizen": "Panqueca",
+      "undercover": "Waffle"
+    },
+    {
+      "citizen": "Cereal",
+      "undercover": "Aveia"
+    },
+    {
+      "citizen": "Ovo",
+      "undercover": "Omelete"
+    },
+    {
+      "citizen": "Bacon",
+      "undercover": "Linguiça"
+    },
+    {
+      "citizen": "Presunto",
+      "undercover": "Bife"
+    },
+    {
+      "citizen": "Frango",
+      "undercover": "Peru"
+    },
+    {
+      "citizen": "Pato",
+      "undercover": "Peixe"
+    },
+    {
+      "citizen": "Camarão",
+      "undercover": "Lagosta"
+    },
+    {
+      "citizen": "Caranguejo",
+      "undercover": "Salada"
+    },
+    {
+      "citizen": "Sopa",
+      "undercover": "Ensopado"
+    },
+    {
+      "citizen": "Curry",
+      "undercover": "Batata Frita"
+    },
+    {
+      "citizen": "Chips",
+      "undercover": "Pipoca"
+    },
+    {
+      "citizen": "Pretzel",
+      "undercover": "Nachos"
+    },
+    {
+      "citizen": "Queijo",
+      "undercover": "Iogurte"
+    },
+    {
+      "citizen": "Leite",
+      "undercover": "Manteiga"
+    },
+    {
+      "citizen": "Sorvete",
+      "undercover": "Bolo"
+    },
+    {
+      "citizen": "Torta",
+      "undercover": "Biscoito"
+    },
+    {
+      "citizen": "Brownie",
+      "undercover": "Rosquinha"
+    },
+    {
+      "citizen": "Muffin",
+      "undercover": "Croissant"
+    },
+    {
+      "citizen": "Bagel",
+      "undercover": "Chocolate"
+    },
+    {
+      "citizen": "Doce",
+      "undercover": "Chiclete"
+    },
+    {
+      "citizen": "Maçã",
+      "undercover": "Banana"
+    },
+    {
+      "citizen": "Laranja",
+      "undercover": "Uva"
+    },
+    {
+      "citizen": "Morango",
+      "undercover": "Mirtilo"
+    },
+    {
+      "citizen": "Framboesa",
+      "undercover": "Melancia"
+    },
+    {
+      "citizen": "Melão",
+      "undercover": "Abacaxi"
+    },
+    {
+      "citizen": "Manga",
+      "undercover": "Pêssego"
+    },
+    {
+      "citizen": "Pera",
+      "undercover": "Ameixa"
+    },
+    {
+      "citizen": "Cereja",
+      "undercover": "Limão"
+    },
+    {
+      "citizen": "Lima",
+      "undercover": "Abacate"
+    },
+    {
+      "citizen": "Tomate",
+      "undercover": "Batata"
+    },
+    {
+      "citizen": "Cenoura",
+      "undercover": "Cebola"
+    },
+    {
+      "citizen": "Alho",
+      "undercover": "Pimenta"
+    },
+    {
+      "citizen": "Brócolis",
+      "undercover": "Milho"
+    },
+    {
+      "citizen": "Ervilha",
+      "undercover": "Espinafre"
+    },
+    {
+      "citizen": "Alface",
+      "undercover": "Pepino"
+    },
+    {
+      "citizen": "Cogumelo",
+      "undercover": "Água"
+    },
+    {
+      "citizen": "Suco",
+      "undercover": "Refrigerante"
+    },
+    {
+      "citizen": "Cerveja",
+      "undercover": "Vinho"
+    },
+    {
+      "citizen": "Whisky",
+      "undercover": "Vodka"
+    },
+    {
+      "citizen": "Rum",
+      "undercover": "Gin"
+    },
+    {
+      "citizen": "Champanhe",
+      "undercover": "Coquetel"
+    }
   ]
 }

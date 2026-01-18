@@ -1,10 +1,237 @@
 {
   "categoryId": "lugares",
   "pairs": [
-    { "citizen": "Beach", "undercover": "Pool" },
-    { "citizen": "Hotel", "undercover": "Motel" },
-    { "citizen": "Museum", "undercover": "Gallery" },
-    { "citizen": "City", "undercover": "Town" },
-    { "citizen": "Forest", "undercover": "Park" }
+    {
+      "citizen": "Beach",
+      "undercover": "Pool"
+    },
+    {
+      "citizen": "Hotel",
+      "undercover": "Motel"
+    },
+    {
+      "citizen": "Museum",
+      "undercover": "Gallery"
+    },
+    {
+      "citizen": "City",
+      "undercover": "Town"
+    },
+    {
+      "citizen": "Forest",
+      "undercover": "Park"
+    },
+    {
+      "citizen": "Airport",
+      "undercover": "Station"
+    },
+    {
+      "citizen": "Port",
+      "undercover": "Bus Stop"
+    },
+    {
+      "citizen": "Hostel",
+      "undercover": "Resort"
+    },
+    {
+      "citizen": "Camp",
+      "undercover": "Tent"
+    },
+    {
+      "citizen": "Beach",
+      "undercover": "Mountain"
+    },
+    {
+      "citizen": "Forest",
+      "undercover": "Lake"
+    },
+    {
+      "citizen": "River",
+      "undercover": "Waterfall"
+    },
+    {
+      "citizen": "Desert",
+      "undercover": "Island"
+    },
+    {
+      "citizen": "Village",
+      "undercover": "Street"
+    },
+    {
+      "citizen": "Road",
+      "undercover": "Square"
+    },
+    {
+      "citizen": "Park",
+      "undercover": "Garden"
+    },
+    {
+      "citizen": "Zoo",
+      "undercover": "Museum"
+    },
+    {
+      "citizen": "Gallery",
+      "undercover": "Theater"
+    },
+    {
+      "citizen": "Cinema",
+      "undercover": "Stadium"
+    },
+    {
+      "citizen": "Arena",
+      "undercover": "Gym"
+    },
+    {
+      "citizen": "Pool",
+      "undercover": "School"
+    },
+    {
+      "citizen": "College",
+      "undercover": "University"
+    },
+    {
+      "citizen": "Library",
+      "undercover": "Hospital"
+    },
+    {
+      "citizen": "Clinic",
+      "undercover": "Pharmacy"
+    },
+    {
+      "citizen": "Bank",
+      "undercover": "Post Office"
+    },
+    {
+      "citizen": "Police Station",
+      "undercover": "Fire Station"
+    },
+    {
+      "citizen": "Church",
+      "undercover": "Cathedral"
+    },
+    {
+      "citizen": "Temple",
+      "undercover": "Mosque"
+    },
+    {
+      "citizen": "Restaurant",
+      "undercover": "Cafe"
+    },
+    {
+      "citizen": "Bar",
+      "undercover": "Pub"
+    },
+    {
+      "citizen": "Club",
+      "undercover": "Disco"
+    },
+    {
+      "citizen": "Shop",
+      "undercover": "Store"
+    },
+    {
+      "citizen": "Supermarket",
+      "undercover": "Market"
+    },
+    {
+      "citizen": "Mall",
+      "undercover": "Bakery"
+    },
+    {
+      "citizen": "Butcher",
+      "undercover": "Farm"
+    },
+    {
+      "citizen": "Barn",
+      "undercover": "Factory"
+    },
+    {
+      "citizen": "Office",
+      "undercover": "Building"
+    },
+    {
+      "citizen": "Skyscraper",
+      "undercover": "Tower"
+    },
+    {
+      "citizen": "Bridge",
+      "undercover": "Tunnel"
+    },
+    {
+      "citizen": "Castle",
+      "undercover": "Palace"
+    },
+    {
+      "citizen": "Fort",
+      "undercover": "Ruins"
+    },
+    {
+      "citizen": "Pyramid",
+      "undercover": "Statue"
+    },
+    {
+      "citizen": "Monument",
+      "undercover": "Fountain"
+    },
+    {
+      "citizen": "USA",
+      "undercover": "UK"
+    },
+    {
+      "citizen": "Canada",
+      "undercover": "Australia"
+    },
+    {
+      "citizen": "France",
+      "undercover": "Germany"
+    },
+    {
+      "citizen": "Italy",
+      "undercover": "Spain"
+    },
+    {
+      "citizen": "Portugal",
+      "undercover": "Brazil"
+    },
+    {
+      "citizen": "Argentina",
+      "undercover": "Mexico"
+    },
+    {
+      "citizen": "China",
+      "undercover": "Japan"
+    },
+    {
+      "citizen": "India",
+      "undercover": "Russia"
+    },
+    {
+      "citizen": "Egypt",
+      "undercover": "South Africa"
+    },
+    {
+      "citizen": "Paris",
+      "undercover": "London"
+    },
+    {
+      "citizen": "New York",
+      "undercover": "Tokyo"
+    },
+    {
+      "citizen": "Rome",
+      "undercover": "Rio de Janeiro"
+    },
+    {
+      "citizen": "Sydney",
+      "undercover": "Dubai"
+    },
+    {
+      "citizen": "Moscow",
+      "undercover": "Beijing"
+    },
+    {
+      "citizen": "Berlin",
+      "undercover": "Madrid"
+    }
   ]
 }

@@ -1,10 +1,217 @@
 {
   "categoryId": "lugares",
   "pairs": [
-    { "citizen": "Praia", "undercover": "Piscina" },
-    { "citizen": "Hotel", "undercover": "Motel" },
-    { "citizen": "Museu", "undercover": "Galeria" },
-    { "citizen": "Cidade", "undercover": "Vila" },
-    { "citizen": "Floresta", "undercover": "Parque" }
+    {
+      "citizen": "Praia",
+      "undercover": "Piscina"
+    },
+    {
+      "citizen": "Hotel",
+      "undercover": "Motel"
+    },
+    {
+      "citizen": "Museu",
+      "undercover": "Galeria"
+    },
+    {
+      "citizen": "Cidade",
+      "undercover": "Vila"
+    },
+    {
+      "citizen": "Floresta",
+      "undercover": "Parque"
+    },
+    {
+      "citizen": "Aeroporto",
+      "undercover": "Estação"
+    },
+    {
+      "citizen": "Porto",
+      "undercover": "Rodoviária"
+    },
+    {
+      "citizen": "Pousada",
+      "undercover": "Resort"
+    },
+    {
+      "citizen": "Acampamento",
+      "undercover": "Barraca"
+    },
+    {
+      "citizen": "Praia",
+      "undercover": "Montanha"
+    },
+    {
+      "citizen": "Floresta",
+      "undercover": "Rio"
+    },
+    {
+      "citizen": "Lago",
+      "undercover": "Cachoeira"
+    },
+    {
+      "citizen": "Deserto",
+      "undercover": "Ilha"
+    },
+    {
+      "citizen": "Rua",
+      "undercover": "Avenida"
+    },
+    {
+      "citizen": "Praça",
+      "undercover": "Parque"
+    },
+    {
+      "citizen": "Jardim",
+      "undercover": "Zoológico"
+    },
+    {
+      "citizen": "Museu",
+      "undercover": "Teatro"
+    },
+    {
+      "citizen": "Cinema",
+      "undercover": "Estádio"
+    },
+    {
+      "citizen": "Ginásio",
+      "undercover": "Piscina"
+    },
+    {
+      "citizen": "Escola",
+      "undercover": "Faculdade"
+    },
+    {
+      "citizen": "Universidade",
+      "undercover": "Biblioteca"
+    },
+    {
+      "citizen": "Hospital",
+      "undercover": "Clínica"
+    },
+    {
+      "citizen": "Farmácia",
+      "undercover": "Banco"
+    },
+    {
+      "citizen": "Correio",
+      "undercover": "Delegacia"
+    },
+    {
+      "citizen": "Igreja",
+      "undercover": "Catedral"
+    },
+    {
+      "citizen": "Templo",
+      "undercover": "Mesquita"
+    },
+    {
+      "citizen": "Restaurante",
+      "undercover": "Café"
+    },
+    {
+      "citizen": "Bar",
+      "undercover": "Boteco"
+    },
+    {
+      "citizen": "Balada",
+      "undercover": "Loja"
+    },
+    {
+      "citizen": "Shopping",
+      "undercover": "Supermercado"
+    },
+    {
+      "citizen": "Mercado",
+      "undercover": "Padaria"
+    },
+    {
+      "citizen": "Açougue",
+      "undercover": "Fazenda"
+    },
+    {
+      "citizen": "Sítio",
+      "undercover": "Fábrica"
+    },
+    {
+      "citizen": "Escritório",
+      "undercover": "Prédio"
+    },
+    {
+      "citizen": "Arranha-céu",
+      "undercover": "Torre"
+    },
+    {
+      "citizen": "Ponte",
+      "undercover": "Túnel"
+    },
+    {
+      "citizen": "Castelo",
+      "undercover": "Palácio"
+    },
+    {
+      "citizen": "Forte",
+      "undercover": "Ruínas"
+    },
+    {
+      "citizen": "Pirâmide",
+      "undercover": "Estátua"
+    },
+    {
+      "citizen": "Monumento",
+      "undercover": "Fonte"
+    },
+    {
+      "citizen": "EUA",
+      "undercover": "Reino Unido"
+    },
+    {
+      "citizen": "Canadá",
+      "undercover": "Austrália"
+    },
+    {
+      "citizen": "França",
+      "undercover": "Alemanha"
+    },
+    {
+      "citizen": "Itália",
+      "undercover": "Espanha"
+    },
+    {
+      "citizen": "Portugal",
+      "undercover": "Brasil"
+    },
+    {
+      "citizen": "Argentina",
+      "undercover": "México"
+    },
+    {
+      "citizen": "China",
+      "undercover": "Japão"
+    },
+    {
+      "citizen": "Índia",
+      "undercover": "Rússia"
+    },
+    {
+      "citizen": "Egito",
+      "undercover": "Paris"
+    },
+    {
+      "citizen": "Londres",
+      "undercover": "Nova York"
+    },
+    {
+      "citizen": "Tóquio",
+      "undercover": "Roma"
+    },
+    {
+      "citizen": "Rio de Janeiro",
+      "undercover": "São Paulo"
+    },
+    {
+      "citizen": "Salvador",
+      "undercover": "Recife"
+    }
   ]
 }

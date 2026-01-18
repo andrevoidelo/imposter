@@ -1,10 +1,217 @@
 {
   "categoryId": "alimentos",
   "pairs": [
-    { "citizen": "Pizza", "undercover": "Burger" },
-    { "citizen": "Coffee", "undercover": "Tea" },
-    { "citizen": "Ice Cream", "undercover": "Popsicle" },
-    { "citizen": "Cake", "undercover": "Pie" },
-    { "citizen": "Rice", "undercover": "Pasta" }
+    {
+      "citizen": "Pizza",
+      "undercover": "Burger"
+    },
+    {
+      "citizen": "Coffee",
+      "undercover": "Tea"
+    },
+    {
+      "citizen": "Ice Cream",
+      "undercover": "Popsicle"
+    },
+    {
+      "citizen": "Cake",
+      "undercover": "Pie"
+    },
+    {
+      "citizen": "Rice",
+      "undercover": "Pasta"
+    },
+    {
+      "citizen": "Sandwich",
+      "undercover": "Hot Dog"
+    },
+    {
+      "citizen": "Taco",
+      "undercover": "Burrito"
+    },
+    {
+      "citizen": "Sushi",
+      "undercover": "Pasta"
+    },
+    {
+      "citizen": "Spaghetti",
+      "undercover": "Lasagna"
+    },
+    {
+      "citizen": "Rice",
+      "undercover": "Beans"
+    },
+    {
+      "citizen": "Bread",
+      "undercover": "Toast"
+    },
+    {
+      "citizen": "Pancake",
+      "undercover": "Waffle"
+    },
+    {
+      "citizen": "Cereal",
+      "undercover": "Oatmeal"
+    },
+    {
+      "citizen": "Egg",
+      "undercover": "Omelet"
+    },
+    {
+      "citizen": "Bacon",
+      "undercover": "Sausage"
+    },
+    {
+      "citizen": "Ham",
+      "undercover": "Steak"
+    },
+    {
+      "citizen": "Chicken",
+      "undercover": "Turkey"
+    },
+    {
+      "citizen": "Duck",
+      "undercover": "Fish"
+    },
+    {
+      "citizen": "Shrimp",
+      "undercover": "Lobster"
+    },
+    {
+      "citizen": "Crab",
+      "undercover": "Salad"
+    },
+    {
+      "citizen": "Soup",
+      "undercover": "Stew"
+    },
+    {
+      "citizen": "Curry",
+      "undercover": "Fries"
+    },
+    {
+      "citizen": "Chips",
+      "undercover": "Popcorn"
+    },
+    {
+      "citizen": "Pretzel",
+      "undercover": "Nachos"
+    },
+    {
+      "citizen": "Cheese",
+      "undercover": "Yogurt"
+    },
+    {
+      "citizen": "Milk",
+      "undercover": "Butter"
+    },
+    {
+      "citizen": "Ice Cream",
+      "undercover": "Cake"
+    },
+    {
+      "citizen": "Pie",
+      "undercover": "Cookie"
+    },
+    {
+      "citizen": "Brownie",
+      "undercover": "Donut"
+    },
+    {
+      "citizen": "Muffin",
+      "undercover": "Croissant"
+    },
+    {
+      "citizen": "Bagel",
+      "undercover": "Chocolate"
+    },
+    {
+      "citizen": "Candy",
+      "undercover": "Gum"
+    },
+    {
+      "citizen": "Apple",
+      "undercover": "Banana"
+    },
+    {
+      "citizen": "Orange",
+      "undercover": "Grape"
+    },
+    {
+      "citizen": "Strawberry",
+      "undercover": "Blueberry"
+    },
+    {
+      "citizen": "Raspberry",
+      "undercover": "Watermelon"
+    },
+    {
+      "citizen": "Melon",
+      "undercover": "Pineapple"
+    },
+    {
+      "citizen": "Mango",
+      "undercover": "Peach"
+    },
+    {
+      "citizen": "Pear",
+      "undercover": "Plum"
+    },
+    {
+      "citizen": "Cherry",
+      "undercover": "Lemon"
+    },
+    {
+      "citizen": "Lime",
+      "undercover": "Avocado"
+    },
+    {
+      "citizen": "Tomato",
+      "undercover": "Potato"
+    },
+    {
+      "citizen": "Carrot",
+      "undercover": "Onion"
+    },
+    {
+      "citizen": "Garlic",
+      "undercover": "Pepper"
+    },
+    {
+      "citizen": "Broccoli",
+      "undercover": "Corn"
+    },
+    {
+      "citizen": "Peas",
+      "undercover": "Spinach"
+    },
+    {
+      "citizen": "Lettuce",
+      "undercover": "Cucumber"
+    },
+    {
+      "citizen": "Mushroom",
+      "undercover": "Water"
+    },
+    {
+      "citizen": "Juice",
+      "undercover": "Soda"
+    },
+    {
+      "citizen": "Beer",
+      "undercover": "Wine"
+    },
+    {
+      "citizen": "Whiskey",
+      "undercover": "Vodka"
+    },
+    {
+      "citizen": "Rum",
+      "undercover": "Gin"
+    },
+    {
+      "citizen": "Champagne",
+      "undercover": "Cocktail"
+    }
   ]
 }

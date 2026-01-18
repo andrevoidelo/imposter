@@ -1,10 +1,213 @@
 {
   "categoryId": "profissoes",
   "pairs": [
-    { "citizen": "Doctor", "undercover": "Nurse" },
-    { "citizen": "Teacher", "undercover": "Professor" },
-    { "citizen": "Police", "undercover": "Security" },
-    { "citizen": "Artist", "undercover": "Designer" },
-    { "citizen": "Actor", "undercover": "Director" }
+    {
+      "citizen": "Doctor",
+      "undercover": "Nurse"
+    },
+    {
+      "citizen": "Teacher",
+      "undercover": "Professor"
+    },
+    {
+      "citizen": "Police",
+      "undercover": "Security"
+    },
+    {
+      "citizen": "Artist",
+      "undercover": "Designer"
+    },
+    {
+      "citizen": "Actor",
+      "undercover": "Director"
+    },
+    {
+      "citizen": "Surgeon",
+      "undercover": "Dentist"
+    },
+    {
+      "citizen": "Pharmacist",
+      "undercover": "Vet"
+    },
+    {
+      "citizen": "Student",
+      "undercover": "Scientist"
+    },
+    {
+      "citizen": "Engineer",
+      "undercover": "Architect"
+    },
+    {
+      "citizen": "Programmer",
+      "undercover": "Developer"
+    },
+    {
+      "citizen": "Writer",
+      "undercover": "Author"
+    },
+    {
+      "citizen": "Journalist",
+      "undercover": "Editor"
+    },
+    {
+      "citizen": "Photographer",
+      "undercover": "Director"
+    },
+    {
+      "citizen": "Actor",
+      "undercover": "Musician"
+    },
+    {
+      "citizen": "Singer",
+      "undercover": "Dancer"
+    },
+    {
+      "citizen": "Chef",
+      "undercover": "Cook"
+    },
+    {
+      "citizen": "Baker",
+      "undercover": "Waiter"
+    },
+    {
+      "citizen": "Bartender",
+      "undercover": "Pilot"
+    },
+    {
+      "citizen": "Flight Attendant",
+      "undercover": "Captain"
+    },
+    {
+      "citizen": "Driver",
+      "undercover": "Truck Driver"
+    },
+    {
+      "citizen": "Taxi Driver",
+      "undercover": "Bus Driver"
+    },
+    {
+      "citizen": "Mechanic",
+      "undercover": "Electrician"
+    },
+    {
+      "citizen": "Plumber",
+      "undercover": "Carpenter"
+    },
+    {
+      "citizen": "Builder",
+      "undercover": "Painter"
+    },
+    {
+      "citizen": "Cleaner",
+      "undercover": "Janitor"
+    },
+    {
+      "citizen": "Gardener",
+      "undercover": "Farmer"
+    },
+    {
+      "citizen": "Fisherman",
+      "undercover": "Police Officer"
+    },
+    {
+      "citizen": "Detective",
+      "undercover": "Firefighter"
+    },
+    {
+      "citizen": "Soldier",
+      "undercover": "General"
+    },
+    {
+      "citizen": "Guard",
+      "undercover": "Lawyer"
+    },
+    {
+      "citizen": "Judge",
+      "undercover": "Politician"
+    },
+    {
+      "citizen": "President",
+      "undercover": "Mayor"
+    },
+    {
+      "citizen": "Businessman",
+      "undercover": "Manager"
+    },
+    {
+      "citizen": "CEO",
+      "undercover": "Accountant"
+    },
+    {
+      "citizen": "Banker",
+      "undercover": "Secretary"
+    },
+    {
+      "citizen": "Receptionist",
+      "undercover": "Salesperson"
+    },
+    {
+      "citizen": "Cashier",
+      "undercover": "Real Estate Agent"
+    },
+    {
+      "citizen": "Athlete",
+      "undercover": "Coach"
+    },
+    {
+      "citizen": "Referee",
+      "undercover": "Librarian"
+    },
+    {
+      "citizen": "Historian",
+      "undercover": "Archaeologist"
+    },
+    {
+      "citizen": "Psychologist",
+      "undercover": "Therapist"
+    },
+    {
+      "citizen": "Priest",
+      "undercover": "Pastor"
+    },
+    {
+      "citizen": "Monk",
+      "undercover": "Nun"
+    },
+    {
+      "citizen": "Astronaut",
+      "undercover": "Astronomer"
+    },
+    {
+      "citizen": "Biologist",
+      "undercover": "Chemist"
+    },
+    {
+      "citizen": "Physicist",
+      "undercover": "Geologist"
+    },
+    {
+      "citizen": "Meteorologist",
+      "undercover": "Zookeeper"
+    },
+    {
+      "citizen": "Magician",
+      "undercover": "Clown"
+    },
+    {
+      "citizen": "Acrobat",
+      "undercover": "Model"
+    },
+    {
+      "citizen": "Stylist",
+      "undercover": "Barber"
+    },
+    {
+      "citizen": "Hairdresser",
+      "undercover": "Makeup Artist"
+    },
+    {
+      "citizen": "Tattoo Artist",
+      "undercover": "Florist"
+    }
   ]
 }

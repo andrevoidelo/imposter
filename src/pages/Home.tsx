@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import { useGameStore } from '../contexts/useGameStore';
 import { PageWrapper } from '../components/layout/PageWrapper';
 import { Button } from '../components/common/Button';
@@ -13,37 +13,39 @@ export default function Home() {
   const isDark = settings.theme === 'dark';
 
   return (
-    <PageWrapper className="flex flex-col items-center justify-center space-y-12">
+    <PageWrapper className="flex flex-col items-center justify-center min-h-screen" withPadding={false}>
       <LanguageSwitcher />
       <ThemeSwitcher className="fixed left-4 z-50" style={{ top: 'calc(var(--safe-area-inset-top, 0px) + 1rem)' }} />
       
-      <div className="text-center space-y-4 animate-in fade-in slide-in-from-top-8 duration-700">
-        <img src="/spy.svg" className={`w-32 h-32 mb-4 mx-auto ${isDark ? 'invert' : 'opacity-70'}`} alt="Spy" />
-        <h1 className={`text-5xl font-bold font-display text-transparent bg-clip-text bg-gradient-to-r ${isDark ? 'from-white to-primary-400' : 'from-black to-slate-500'}`}>
-          {t('home.title')}
-        </h1>
-        <p className="text-text-secondary text-sm max-w-[250px] mx-auto">
-          "{t('home.subtitle')}"
-        </p>
-      </div>
+      <div className="w-full max-w-[320px] flex flex-col items-center justify-center space-y-12">
+        <div className="text-center space-y-4 animate-in fade-in slide-in-from-top-8 duration-700">
+          <img src="/spy.svg" className={`w-32 h-32 mb-4 mx-auto ${isDark ? 'invert' : 'opacity-70'}`} alt="Spy" />
+          <h1 className={`text-5xl font-bold font-display text-transparent bg-clip-text bg-gradient-to-r ${isDark ? 'from-white to-primary-400' : 'from-black to-slate-500'}`}>
+            {t('home.title')}
+          </h1>
+          <p className="text-text-secondary text-sm max-w-[250px] mx-auto italic">
+            <Trans i18nKey="home.subtitle" components={{ 1: <span className="font-bold" /> }} />
+          </p>
+        </div>
 
-      <div className="w-full space-y-4">
-        <Button 
-          fullWidth 
-          size="lg" 
-          onClick={() => navigate('/setup')}
-          className="bg-gradient-to-r from-primary-500 to-primary-600"
-        >
-          {t('home.newGame')}
-        </Button>
-        
-        <Button 
-          fullWidth 
-          variant="secondary"
-          onClick={() => navigate('/how-to-play')}
-        >
-          {t('home.howToPlay')}
-        </Button>
+        <div className="w-full space-y-4">
+          <Button 
+            fullWidth 
+            size="lg" 
+            onClick={() => navigate('/setup')}
+            className="bg-gradient-to-r from-primary-500 to-primary-600"
+          >
+            {t('home.newGame')}
+          </Button>
+          
+          <Button 
+            fullWidth 
+            variant="secondary"
+            onClick={() => navigate('/how-to-play')}
+          >
+            {t('home.howToPlay')}
+          </Button>
+        </div>
       </div>
       
       <div className="text-text-muted text-xs absolute flex flex-col items-center gap-1" style={{ bottom: 'calc(var(--safe-area-inset-bottom, 0px) + 2rem)' }}>

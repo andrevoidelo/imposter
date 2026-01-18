@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "IMPOSTOR!",
-    "subtitle": "Todos sabem a palavra secreta... exceto um!",
+    "subtitle": "Todos sabem a palavra secreta... <1>exceto por um!</1>",
     "newGame": "NOVA PARTIDA",
     "howToPlay": "COMO JOGAR"
   },

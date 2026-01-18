@@ -1,10 +1,241 @@
 {
   "categoryId": "animais",
   "pairs": [
-    { "citizen": "Dog", "undercover": "Wolf" },
-    { "citizen": "Cat", "undercover": "Tiger" },
-    { "citizen": "Dolphin", "undercover": "Shark" },
-    { "citizen": "Eagle", "undercover": "Hawk" },
-    { "citizen": "Snake", "undercover": "Lizard" }
+    {
+      "citizen": "Dog",
+      "undercover": "Wolf"
+    },
+    {
+      "citizen": "Cat",
+      "undercover": "Tiger"
+    },
+    {
+      "citizen": "Dolphin",
+      "undercover": "Shark"
+    },
+    {
+      "citizen": "Eagle",
+      "undercover": "Hawk"
+    },
+    {
+      "citizen": "Snake",
+      "undercover": "Lizard"
+    },
+    {
+      "citizen": "Dog",
+      "undercover": "Cat"
+    },
+    {
+      "citizen": "Lion",
+      "undercover": "Elephant"
+    },
+    {
+      "citizen": "Tiger",
+      "undercover": "Bear"
+    },
+    {
+      "citizen": "Wolf",
+      "undercover": "Fox"
+    },
+    {
+      "citizen": "Rabbit",
+      "undercover": "Mouse"
+    },
+    {
+      "citizen": "Horse",
+      "undercover": "Cow"
+    },
+    {
+      "citizen": "Pig",
+      "undercover": "Sheep"
+    },
+    {
+      "citizen": "Goat",
+      "undercover": "Chicken"
+    },
+    {
+      "citizen": "Duck",
+      "undercover": "Eagle"
+    },
+    {
+      "citizen": "Hawk",
+      "undercover": "Owl"
+    },
+    {
+      "citizen": "Parrot",
+      "undercover": "Penguin"
+    },
+    {
+      "citizen": "Ostrich",
+      "undercover": "Flamingo"
+    },
+    {
+      "citizen": "Frog",
+      "undercover": "Turtle"
+    },
+    {
+      "citizen": "Crocodile",
+      "undercover": "Alligator"
+    },
+    {
+      "citizen": "Shark",
+      "undercover": "Whale"
+    },
+    {
+      "citizen": "Dolphin",
+      "undercover": "Fish"
+    },
+    {
+      "citizen": "Octopus",
+      "undercover": "Squid"
+    },
+    {
+      "citizen": "Crab",
+      "undercover": "Lobster"
+    },
+    {
+      "citizen": "Shrimp",
+      "undercover": "Starfish"
+    },
+    {
+      "citizen": "Jellyfish",
+      "undercover": "Bee"
+    },
+    {
+      "citizen": "Ant",
+      "undercover": "Butterfly"
+    },
+    {
+      "citizen": "Spider",
+      "undercover": "Scorpion"
+    },
+    {
+      "citizen": "Mosquito",
+      "undercover": "Fly"
+    },
+    {
+      "citizen": "Beetle",
+      "undercover": "Dragonfly"
+    },
+    {
+      "citizen": "Tree",
+      "undercover": "Flower"
+    },
+    {
+      "citizen": "Grass",
+      "undercover": "Rose"
+    },
+    {
+      "citizen": "Tulip",
+      "undercover": "Sunflower"
+    },
+    {
+      "citizen": "Cactus",
+      "undercover": "Palm Tree"
+    },
+    {
+      "citizen": "Pine Tree",
+      "undercover": "Oak"
+    },
+    {
+      "citizen": "Forest",
+      "undercover": "Jungle"
+    },
+    {
+      "citizen": "Desert",
+      "undercover": "Ocean"
+    },
+    {
+      "citizen": "Sea",
+      "undercover": "River"
+    },
+    {
+      "citizen": "Lake",
+      "undercover": "Mountain"
+    },
+    {
+      "citizen": "Hill",
+      "undercover": "Valley"
+    },
+    {
+      "citizen": "Volcano",
+      "undercover": "Cave"
+    },
+    {
+      "citizen": "Beach",
+      "undercover": "Island"
+    },
+    {
+      "citizen": "Waterfall",
+      "undercover": "Rain"
+    },
+    {
+      "citizen": "Snow",
+      "undercover": "Storm"
+    },
+    {
+      "citizen": "Thunder",
+      "undercover": "Lightning"
+    },
+    {
+      "citizen": "Wind",
+      "undercover": "Sun"
+    },
+    {
+      "citizen": "Moon",
+      "undercover": "Star"
+    },
+    {
+      "citizen": "Planet",
+      "undercover": "Cloud"
+    },
+    {
+      "citizen": "Sky",
+      "undercover": "Rainbow"
+    },
+    {
+      "citizen": "Fire",
+      "undercover": "Ice"
+    },
+    {
+      "citizen": "Earth",
+      "undercover": "Rock"
+    },
+    {
+      "citizen": "Sand",
+      "undercover": "Mud"
+    },
+    {
+      "citizen": "Leaf",
+      "undercover": "Root"
+    },
+    {
+      "citizen": "Branch",
+      "undercover": "Seed"
+    },
+    {
+      "citizen": "Fruit",
+      "undercover": "Mushroom"
+    },
+    {
+      "citizen": "Hurricane",
+      "undercover": "Tornado"
+    },
+    {
+      "citizen": "Earthquake",
+      "undercover": "Tsunami"
+    },
+    {
+      "citizen": "Kangaroo",
+      "undercover": "Koala"
+    },
+    {
+      "citizen": "Panda",
+      "undercover": "Giraffe"
+    },
+    {
+      "citizen": "Zebra",
+      "undercover": "Hippo"
+    }
   ]
 }

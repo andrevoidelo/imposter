@@ -16,7 +16,6 @@ export default function Setup() {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const { settings, updateSettings, startGame, players, addPlayer, removePlayer, updatePlayerName, resetGame } = useGameStore();
-  const isDark = settings.theme === 'dark';
   
   const [categories, setCategories] = useState<Category[]>([]);
   
@@ -184,7 +183,7 @@ export default function Setup() {
                     checked={settings.gameMode === 'classic'}
                     onChange={() => updateSettings({ gameMode: 'classic' })}
                 />
-                <img src="/spy.svg" className={`w-8 h-8 ${isDark ? 'invert' : 'opacity-70'}`} alt="Spy" />
+                <div className="text-2xl">🕵️</div>
                 <div>
                     <div className="font-bold">{t('setup.modes.classic.title')}</div>
                     <div className="text-xs text-text-secondary">{t('setup.modes.classic.description')}</div>
@@ -202,7 +201,7 @@ export default function Setup() {
                     checked={settings.gameMode === 'undercover'}
                     onChange={() => updateSettings({ gameMode: 'undercover' })}
                 />
-                <div className="text-2xl">🕵️</div>
+                <div className="text-2xl">👮</div>
                 <div>
                     <div className="font-bold">{t('setup.modes.undercover.title')}</div>
                     <div className="text-xs text-text-secondary">{t('setup.modes.undercover.description')}</div>

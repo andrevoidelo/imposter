@@ -1,10 +1,205 @@
 {
   "categoryId": "esportes",
   "pairs": [
-    { "citizen": "Futebol", "undercover": "Futsal" },
-    { "citizen": "Tênis", "undercover": "Pingue-pongue" },
-    { "citizen": "Natação", "undercover": "Mergulho" },
-    { "citizen": "Basquete", "undercover": "Vôlei" },
-    { "citizen": "Esqui", "undercover": "Snowboard" }
+    {
+      "citizen": "Futebol",
+      "undercover": "Futsal"
+    },
+    {
+      "citizen": "Tênis",
+      "undercover": "Pingue-pongue"
+    },
+    {
+      "citizen": "Natação",
+      "undercover": "Mergulho"
+    },
+    {
+      "citizen": "Basquete",
+      "undercover": "Vôlei"
+    },
+    {
+      "citizen": "Esqui",
+      "undercover": "Snowboard"
+    },
+    {
+      "citizen": "Futebol",
+      "undercover": "Basquete"
+    },
+    {
+      "citizen": "Vôlei",
+      "undercover": "Tênis"
+    },
+    {
+      "citizen": "Golfe",
+      "undercover": "Rúgbi"
+    },
+    {
+      "citizen": "Hóquei",
+      "undercover": "Badminton"
+    },
+    {
+      "citizen": "Tênis de Mesa",
+      "undercover": "Pingue-pongue"
+    },
+    {
+      "citizen": "Handebol",
+      "undercover": "Boxe"
+    },
+    {
+      "citizen": "Luta",
+      "undercover": "MMA"
+    },
+    {
+      "citizen": "Judô",
+      "undercover": "Caratê"
+    },
+    {
+      "citizen": "Jiu-jitsu",
+      "undercover": "Capoeira"
+    },
+    {
+      "citizen": "Esgrima",
+      "undercover": "Natação"
+    },
+    {
+      "citizen": "Surfe",
+      "undercover": "Vela"
+    },
+    {
+      "citizen": "Remo",
+      "undercover": "Canoagem"
+    },
+    {
+      "citizen": "Polo Aquático",
+      "undercover": "Ciclismo"
+    },
+    {
+      "citizen": "Corrida",
+      "undercover": "Maratona"
+    },
+    {
+      "citizen": "Atletismo",
+      "undercover": "Ginástica"
+    },
+    {
+      "citizen": "Yoga",
+      "undercover": "Pilates"
+    },
+    {
+      "citizen": "Musculação",
+      "undercover": "Crossfit"
+    },
+    {
+      "citizen": "Escalada",
+      "undercover": "Trilha"
+    },
+    {
+      "citizen": "Acampamento",
+      "undercover": "Esqui"
+    },
+    {
+      "citizen": "Snowboard",
+      "undercover": "Patinação"
+    },
+    {
+      "citizen": "Skate",
+      "undercover": "Boliche"
+    },
+    {
+      "citizen": "Sinuca",
+      "undercover": "Dardos"
+    },
+    {
+      "citizen": "Arco e Flecha",
+      "undercover": "Tiro"
+    },
+    {
+      "citizen": "Caça",
+      "undercover": "Pesca"
+    },
+    {
+      "citizen": "Hipismo",
+      "undercover": "Corrida de Carro"
+    },
+    {
+      "citizen": "Fórmula 1",
+      "undercover": "Rali"
+    },
+    {
+      "citizen": "Kart",
+      "undercover": "Xadrez"
+    },
+    {
+      "citizen": "Pôquer",
+      "undercover": "Videogame"
+    },
+    {
+      "citizen": "Esports",
+      "undercover": "Árbitro"
+    },
+    {
+      "citizen": "Juiz",
+      "undercover": "Técnico"
+    },
+    {
+      "citizen": "Time",
+      "undercover": "Jogador"
+    },
+    {
+      "citizen": "Capitão",
+      "undercover": "Goleiro"
+    },
+    {
+      "citizen": "Zagueiro",
+      "undercover": "Atacante"
+    },
+    {
+      "citizen": "Bola",
+      "undercover": "Raquete"
+    },
+    {
+      "citizen": "Taco",
+      "undercover": "Capacete"
+    },
+    {
+      "citizen": "Luvas",
+      "undercover": "Chuteira"
+    },
+    {
+      "citizen": "Camisa",
+      "undercover": "Shorts"
+    },
+    {
+      "citizen": "Estádio",
+      "undercover": "Arena"
+    },
+    {
+      "citizen": "Campo",
+      "undercover": "Quadra"
+    },
+    {
+      "citizen": "Pista",
+      "undercover": "Piscina"
+    },
+    {
+      "citizen": "Tatame",
+      "undercover": "Ringue"
+    },
+    {
+      "citizen": "Gol",
+      "undercover": "Cesta"
+    },
+    {
+      "citizen": "Rede",
+      "undercover": "Medalha"
+    },
+    {
+      "citizen": "Troféu",
+      "undercover": "Olimpíadas"
+    },
+    {
+      "citizen": "Copa do Mundo",
+      "undercover": "Campeonato"
+    }
   ]
 }

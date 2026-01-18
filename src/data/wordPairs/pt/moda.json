@@ -1,10 +1,205 @@
 {
   "categoryId": "moda",
   "pairs": [
-    { "citizen": "Camisa", "undercover": "Camiseta" },
-    { "citizen": "Saia", "undercover": "Vestido" },
-    { "citizen": "Sapato", "undercover": "Bota" },
-    { "citizen": "Chapéu", "undercover": "Boné" },
-    { "citizen": "Óculos", "undercover": "Óculos de Sol" }
+    {
+      "citizen": "Camisa",
+      "undercover": "Camiseta"
+    },
+    {
+      "citizen": "Saia",
+      "undercover": "Vestido"
+    },
+    {
+      "citizen": "Sapato",
+      "undercover": "Bota"
+    },
+    {
+      "citizen": "Chapéu",
+      "undercover": "Boné"
+    },
+    {
+      "citizen": "Óculos",
+      "undercover": "Óculos de Sol"
+    },
+    {
+      "citizen": "Blusa",
+      "undercover": "Top"
+    },
+    {
+      "citizen": "Suéter",
+      "undercover": "Moletom"
+    },
+    {
+      "citizen": "Cardigã",
+      "undercover": "Colete"
+    },
+    {
+      "citizen": "Jaqueta",
+      "undercover": "Casaco"
+    },
+    {
+      "citizen": "Sobretudo",
+      "undercover": "Capa de Chuva"
+    },
+    {
+      "citizen": "Blazer",
+      "undercover": "Terno"
+    },
+    {
+      "citizen": "Smoking",
+      "undercover": "Vestido"
+    },
+    {
+      "citizen": "Saia",
+      "undercover": "Calça"
+    },
+    {
+      "citizen": "Jeans",
+      "undercover": "Shorts"
+    },
+    {
+      "citizen": "Bermuda",
+      "undercover": "Legging"
+    },
+    {
+      "citizen": "Meia-calça",
+      "undercover": "Calcinha"
+    },
+    {
+      "citizen": "Cueca",
+      "undercover": "Sutiã"
+    },
+    {
+      "citizen": "Meia",
+      "undercover": "Pijama"
+    },
+    {
+      "citizen": "Camisola",
+      "undercover": "Roupão"
+    },
+    {
+      "citizen": "Biquíni",
+      "undercover": "Maiô"
+    },
+    {
+      "citizen": "Sunga",
+      "undercover": "Uniforme"
+    },
+    {
+      "citizen": "Fantasia",
+      "undercover": "Sapato"
+    },
+    {
+      "citizen": "Tênis",
+      "undercover": "Bota"
+    },
+    {
+      "citizen": "Sandália",
+      "undercover": "Chinelo"
+    },
+    {
+      "citizen": "Pantufa",
+      "undercover": "Salto Alto"
+    },
+    {
+      "citizen": "Sapatilha",
+      "undercover": "Chapéu"
+    },
+    {
+      "citizen": "Boné",
+      "undercover": "Gorro"
+    },
+    {
+      "citizen": "Boina",
+      "undercover": "Capacete"
+    },
+    {
+      "citizen": "Cachecol",
+      "undercover": "Luva"
+    },
+    {
+      "citizen": "Gravata",
+      "undercover": "Gravata Borboleta"
+    },
+    {
+      "citizen": "Cinto",
+      "undercover": "Suspensório"
+    },
+    {
+      "citizen": "Carteira",
+      "undercover": "Bolsa"
+    },
+    {
+      "citizen": "Mochila",
+      "undercover": "Mala"
+    },
+    {
+      "citizen": "Óculos",
+      "undercover": "Relógio"
+    },
+    {
+      "citizen": "Joia",
+      "undercover": "Colar"
+    },
+    {
+      "citizen": "Pulseira",
+      "undercover": "Anel"
+    },
+    {
+      "citizen": "Brinco",
+      "undercover": "Piercing"
+    },
+    {
+      "citizen": "Tatuagem",
+      "undercover": "Maquiagem"
+    },
+    {
+      "citizen": "Batom",
+      "undercover": "Perfume"
+    },
+    {
+      "citizen": "Cabelo",
+      "undercover": "Penteado"
+    },
+    {
+      "citizen": "Peruca",
+      "undercover": "Barba"
+    },
+    {
+      "citizen": "Bigode",
+      "undercover": "Máscara"
+    },
+    {
+      "citizen": "Guarda-chuva",
+      "undercover": "Algodão"
+    },
+    {
+      "citizen": "Lã",
+      "undercover": "Seda"
+    },
+    {
+      "citizen": "Couro",
+      "undercover": "Jeans"
+    },
+    {
+      "citizen": "Veludo",
+      "undercover": "Linho"
+    },
+    {
+      "citizen": "Nylon",
+      "undercover": "Poliéster"
+    },
+    {
+      "citizen": "Pele",
+      "undercover": "Renda"
+    },
+    {
+      "citizen": "Botão",
+      "undercover": "Zíper"
+    },
+    {
+      "citizen": "Camisa",
+      "undercover": "Blusa"
+    }
   ]
 }

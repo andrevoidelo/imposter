@@ -23,10 +23,10 @@ export const LanguageSwitcher = () => {
       variant="ghost" 
       size="sm" 
       onClick={toggleLanguage}
-      className="fixed top-4 right-4 z-50 bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 uppercase font-bold text-xs h-8 px-3 gap-2"
+      className="fixed top-4 right-4 z-50 bg-bg-elevated/50 backdrop-blur-md border border-text-primary/10 uppercase font-bold text-sm h-10 px-4 gap-2 shadow-lg"
     >
       <span>{display.code}</span>
-      <span className="text-base">{display.flag}</span>
+      <span className="text-xl">{display.flag}</span>
     </Button>
   );
 };

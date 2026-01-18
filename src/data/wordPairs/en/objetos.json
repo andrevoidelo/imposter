@@ -1,10 +1,237 @@
 {
   "categoryId": "objetos",
   "pairs": [
-    { "citizen": "Chair", "undercover": "Sofa" },
-    { "citizen": "Pen", "undercover": "Pencil" },
-    { "citizen": "Phone", "undercover": "Tablet" },
-    { "citizen": "Fork", "undercover": "Spoon" },
-    { "citizen": "Cup", "undercover": "Glass" }
+    {
+      "citizen": "Chair",
+      "undercover": "Sofa"
+    },
+    {
+      "citizen": "Pen",
+      "undercover": "Pencil"
+    },
+    {
+      "citizen": "Phone",
+      "undercover": "Tablet"
+    },
+    {
+      "citizen": "Fork",
+      "undercover": "Spoon"
+    },
+    {
+      "citizen": "Cup",
+      "undercover": "Glass"
+    },
+    {
+      "citizen": "Table",
+      "undercover": "Chair"
+    },
+    {
+      "citizen": "Sofa",
+      "undercover": "Couch"
+    },
+    {
+      "citizen": "Bed",
+      "undercover": "Desk"
+    },
+    {
+      "citizen": "Lamp",
+      "undercover": "Light"
+    },
+    {
+      "citizen": "Bulb",
+      "undercover": "Fan"
+    },
+    {
+      "citizen": "Door",
+      "undercover": "Window"
+    },
+    {
+      "citizen": "Wall",
+      "undercover": "Floor"
+    },
+    {
+      "citizen": "Ceiling",
+      "undercover": "Roof"
+    },
+    {
+      "citizen": "Carpet",
+      "undercover": "Rug"
+    },
+    {
+      "citizen": "Curtain",
+      "undercover": "Mirror"
+    },
+    {
+      "citizen": "Clock",
+      "undercover": "Watch"
+    },
+    {
+      "citizen": "Phone",
+      "undercover": "Mobile"
+    },
+    {
+      "citizen": "Laptop",
+      "undercover": "Computer"
+    },
+    {
+      "citizen": "Tablet",
+      "undercover": "Camera"
+    },
+    {
+      "citizen": "TV",
+      "undercover": "Remote"
+    },
+    {
+      "citizen": "Radio",
+      "undercover": "Speaker"
+    },
+    {
+      "citizen": "Headphones",
+      "undercover": "Earphones"
+    },
+    {
+      "citizen": "Charger",
+      "undercover": "Cable"
+    },
+    {
+      "citizen": "Battery",
+      "undercover": "Plug"
+    },
+    {
+      "citizen": "Socket",
+      "undercover": "Switch"
+    },
+    {
+      "citizen": "Eraser",
+      "undercover": "Sharpener"
+    },
+    {
+      "citizen": "Ruler",
+      "undercover": "Paper"
+    },
+    {
+      "citizen": "Notebook",
+      "undercover": "Book"
+    },
+    {
+      "citizen": "Magazine",
+      "undercover": "Newspaper"
+    },
+    {
+      "citizen": "Bag",
+      "undercover": "Backpack"
+    },
+    {
+      "citizen": "Purse",
+      "undercover": "Wallet"
+    },
+    {
+      "citizen": "Keys",
+      "undercover": "Glasses"
+    },
+    {
+      "citizen": "Sunglasses",
+      "undercover": "Umbrella"
+    },
+    {
+      "citizen": "Raincoat",
+      "undercover": "Coat"
+    },
+    {
+      "citizen": "Jacket",
+      "undercover": "Hat"
+    },
+    {
+      "citizen": "Cap",
+      "undercover": "Gloves"
+    },
+    {
+      "citizen": "Scarf",
+      "undercover": "Shoes"
+    },
+    {
+      "citizen": "Sneakers",
+      "undercover": "Boots"
+    },
+    {
+      "citizen": "Socks",
+      "undercover": "Shirt"
+    },
+    {
+      "citizen": "T-Shirt",
+      "undercover": "Pants"
+    },
+    {
+      "citizen": "Jeans",
+      "undercover": "Shorts"
+    },
+    {
+      "citizen": "Dress",
+      "undercover": "Skirt"
+    },
+    {
+      "citizen": "Belt",
+      "undercover": "Tie"
+    },
+    {
+      "citizen": "Suit",
+      "undercover": "Uniform"
+    },
+    {
+      "citizen": "Mug",
+      "undercover": "Bottle"
+    },
+    {
+      "citizen": "Plate",
+      "undercover": "Bowl"
+    },
+    {
+      "citizen": "Dish",
+      "undercover": "Fork"
+    },
+    {
+      "citizen": "Spoon",
+      "undercover": "Knife"
+    },
+    {
+      "citizen": "Pan",
+      "undercover": "Pot"
+    },
+    {
+      "citizen": "Oven",
+      "undercover": "Stove"
+    },
+    {
+      "citizen": "Microwave",
+      "undercover": "Fridge"
+    },
+    {
+      "citizen": "Freezer",
+      "undercover": "Toaster"
+    },
+    {
+      "citizen": "Blender",
+      "undercover": "Mixer"
+    },
+    {
+      "citizen": "Sink",
+      "undercover": "Tap"
+    },
+    {
+      "citizen": "Soap",
+      "undercover": "Shampoo"
+    },
+    {
+      "citizen": "Towel",
+      "undercover": "Toothbrush"
+    },
+    {
+      "citizen": "Toothpaste",
+      "undercover": "Brush"
+    },
+    {
+      "citizen": "Comb",
+      "undercover": "Razor"
+    }
   ]
 }

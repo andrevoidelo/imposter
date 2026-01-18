@@ -1,10 +1,241 @@
 {
   "categoryId": "animais",
   "pairs": [
-    { "citizen": "Cachorro", "undercover": "Lobo" },
-    { "citizen": "Gato", "undercover": "Tigre" },
-    { "citizen": "Golfinho", "undercover": "Tubarão" },
-    { "citizen": "Águia", "undercover": "Gavião" },
-    { "citizen": "Cobra", "undercover": "Lagarto" }
+    {
+      "citizen": "Cachorro",
+      "undercover": "Lobo"
+    },
+    {
+      "citizen": "Gato",
+      "undercover": "Tigre"
+    },
+    {
+      "citizen": "Golfinho",
+      "undercover": "Tubarão"
+    },
+    {
+      "citizen": "Águia",
+      "undercover": "Gavião"
+    },
+    {
+      "citizen": "Cobra",
+      "undercover": "Lagarto"
+    },
+    {
+      "citizen": "Cachorro",
+      "undercover": "Gato"
+    },
+    {
+      "citizen": "Leão",
+      "undercover": "Elefante"
+    },
+    {
+      "citizen": "Tigre",
+      "undercover": "Urso"
+    },
+    {
+      "citizen": "Lobo",
+      "undercover": "Raposa"
+    },
+    {
+      "citizen": "Coelho",
+      "undercover": "Rato"
+    },
+    {
+      "citizen": "Cavalo",
+      "undercover": "Vaca"
+    },
+    {
+      "citizen": "Porco",
+      "undercover": "Ovelha"
+    },
+    {
+      "citizen": "Cabra",
+      "undercover": "Galinha"
+    },
+    {
+      "citizen": "Pato",
+      "undercover": "Águia"
+    },
+    {
+      "citizen": "Gavião",
+      "undercover": "Coruja"
+    },
+    {
+      "citizen": "Papagaio",
+      "undercover": "Pinguim"
+    },
+    {
+      "citizen": "Avestruz",
+      "undercover": "Flamingo"
+    },
+    {
+      "citizen": "Sapo",
+      "undercover": "Tartaruga"
+    },
+    {
+      "citizen": "Jacaré",
+      "undercover": "Crocodilo"
+    },
+    {
+      "citizen": "Tubarão",
+      "undercover": "Baleia"
+    },
+    {
+      "citizen": "Golfinho",
+      "undercover": "Peixe"
+    },
+    {
+      "citizen": "Polvo",
+      "undercover": "Lula"
+    },
+    {
+      "citizen": "Caranguejo",
+      "undercover": "Lagosta"
+    },
+    {
+      "citizen": "Camarão",
+      "undercover": "Estrela-do-mar"
+    },
+    {
+      "citizen": "Água-viva",
+      "undercover": "Abelha"
+    },
+    {
+      "citizen": "Formiga",
+      "undercover": "Borboleta"
+    },
+    {
+      "citizen": "Aranha",
+      "undercover": "Escorpião"
+    },
+    {
+      "citizen": "Mosquito",
+      "undercover": "Mosca"
+    },
+    {
+      "citizen": "Besouro",
+      "undercover": "Libélula"
+    },
+    {
+      "citizen": "Árvore",
+      "undercover": "Flor"
+    },
+    {
+      "citizen": "Grama",
+      "undercover": "Rosa"
+    },
+    {
+      "citizen": "Tulipa",
+      "undercover": "Girassol"
+    },
+    {
+      "citizen": "Cacto",
+      "undercover": "Palmeira"
+    },
+    {
+      "citizen": "Pinheiro",
+      "undercover": "Carvalho"
+    },
+    {
+      "citizen": "Floresta",
+      "undercover": "Selva"
+    },
+    {
+      "citizen": "Deserto",
+      "undercover": "Oceano"
+    },
+    {
+      "citizen": "Mar",
+      "undercover": "Rio"
+    },
+    {
+      "citizen": "Lago",
+      "undercover": "Montanha"
+    },
+    {
+      "citizen": "Colina",
+      "undercover": "Vale"
+    },
+    {
+      "citizen": "Vulcão",
+      "undercover": "Caverna"
+    },
+    {
+      "citizen": "Praia",
+      "undercover": "Ilha"
+    },
+    {
+      "citizen": "Cachoeira",
+      "undercover": "Chuva"
+    },
+    {
+      "citizen": "Neve",
+      "undercover": "Tempestade"
+    },
+    {
+      "citizen": "Trovão",
+      "undercover": "Raio"
+    },
+    {
+      "citizen": "Vento",
+      "undercover": "Sol"
+    },
+    {
+      "citizen": "Lua",
+      "undercover": "Estrela"
+    },
+    {
+      "citizen": "Planeta",
+      "undercover": "Nuvem"
+    },
+    {
+      "citizen": "Céu",
+      "undercover": "Arco-íris"
+    },
+    {
+      "citizen": "Fogo",
+      "undercover": "Gelo"
+    },
+    {
+      "citizen": "Terra",
+      "undercover": "Pedra"
+    },
+    {
+      "citizen": "Areia",
+      "undercover": "Lama"
+    },
+    {
+      "citizen": "Folha",
+      "undercover": "Raiz"
+    },
+    {
+      "citizen": "Galho",
+      "undercover": "Semente"
+    },
+    {
+      "citizen": "Fruta",
+      "undercover": "Cogumelo"
+    },
+    {
+      "citizen": "Furacão",
+      "undercover": "Tornado"
+    },
+    {
+      "citizen": "Terremoto",
+      "undercover": "Tsunami"
+    },
+    {
+      "citizen": "Canguru",
+      "undercover": "Coala"
+    },
+    {
+      "citizen": "Panda",
+      "undercover": "Girafa"
+    },
+    {
+      "citizen": "Zebra",
+      "undercover": "Hipopótamo"
+    }
   ]
 }

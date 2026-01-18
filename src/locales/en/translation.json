@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "IMPOSTOR!",
-    "subtitle": "Everyone knows the secret word... except one!",
+    "subtitle": "Everyone knows the secret word... <1>except for one!</1>",
     "newGame": "NEW GAME",
     "howToPlay": "HOW TO PLAY"
   },

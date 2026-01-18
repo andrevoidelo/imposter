@@ -1,10 +1,217 @@
 {
   "categoryId": "transportes",
   "pairs": [
-    { "citizen": "Car", "undercover": "Taxi" },
-    { "citizen": "Bus", "undercover": "Train" },
-    { "citizen": "Airplane", "undercover": "Helicopter" },
-    { "citizen": "Boat", "undercover": "Ship" },
-    { "citizen": "Bike", "undercover": "Motorcycle" }
+    {
+      "citizen": "Car",
+      "undercover": "Taxi"
+    },
+    {
+      "citizen": "Bus",
+      "undercover": "Train"
+    },
+    {
+      "citizen": "Airplane",
+      "undercover": "Helicopter"
+    },
+    {
+      "citizen": "Boat",
+      "undercover": "Ship"
+    },
+    {
+      "citizen": "Bike",
+      "undercover": "Motorcycle"
+    },
+    {
+      "citizen": "Car",
+      "undercover": "Bus"
+    },
+    {
+      "citizen": "Truck",
+      "undercover": "Van"
+    },
+    {
+      "citizen": "Bicycle",
+      "undercover": "Scooter"
+    },
+    {
+      "citizen": "Skateboard",
+      "undercover": "Rollerblades"
+    },
+    {
+      "citizen": "Train",
+      "undercover": "Subway"
+    },
+    {
+      "citizen": "Metro",
+      "undercover": "Tram"
+    },
+    {
+      "citizen": "Trolley",
+      "undercover": "Monorail"
+    },
+    {
+      "citizen": "Taxi",
+      "undercover": "Cab"
+    },
+    {
+      "citizen": "Uber",
+      "undercover": "Lyft"
+    },
+    {
+      "citizen": "Limousine",
+      "undercover": "Ambulance"
+    },
+    {
+      "citizen": "Police Car",
+      "undercover": "Fire Truck"
+    },
+    {
+      "citizen": "Tractor",
+      "undercover": "Bulldozer"
+    },
+    {
+      "citizen": "Crane",
+      "undercover": "Forklift"
+    },
+    {
+      "citizen": "Tank",
+      "undercover": "Jeep"
+    },
+    {
+      "citizen": "Airplane",
+      "undercover": "Plane"
+    },
+    {
+      "citizen": "Jet",
+      "undercover": "Helicopter"
+    },
+    {
+      "citizen": "Chopper",
+      "undercover": "Glider"
+    },
+    {
+      "citizen": "Drone",
+      "undercover": "Rocket"
+    },
+    {
+      "citizen": "Spaceship",
+      "undercover": "UFO"
+    },
+    {
+      "citizen": "Balloon",
+      "undercover": "Blimp"
+    },
+    {
+      "citizen": "Zeppelin",
+      "undercover": "Parachute"
+    },
+    {
+      "citizen": "Yacht",
+      "undercover": "Ferry"
+    },
+    {
+      "citizen": "Cruise",
+      "undercover": "Submarine"
+    },
+    {
+      "citizen": "Canoe",
+      "undercover": "Kayak"
+    },
+    {
+      "citizen": "Raft",
+      "undercover": "Sailboat"
+    },
+    {
+      "citizen": "Speedboat",
+      "undercover": "Jet Ski"
+    },
+    {
+      "citizen": "Hovercraft",
+      "undercover": "Gondola"
+    },
+    {
+      "citizen": "Cable Car",
+      "undercover": "Ski Lift"
+    },
+    {
+      "citizen": "Horse",
+      "undercover": "Camel"
+    },
+    {
+      "citizen": "Elephant",
+      "undercover": "Donkey"
+    },
+    {
+      "citizen": "Carriage",
+      "undercover": "Cart"
+    },
+    {
+      "citizen": "Wagon",
+      "undercover": "Sled"
+    },
+    {
+      "citizen": "Sleigh",
+      "undercover": "Rickshaw"
+    },
+    {
+      "citizen": "Wheelchair",
+      "undercover": "Stroller"
+    },
+    {
+      "citizen": "Walker",
+      "undercover": "Crutches"
+    },
+    {
+      "citizen": "Segway",
+      "undercover": "Hoverboard"
+    },
+    {
+      "citizen": "Unicycle",
+      "undercover": "Tricycle"
+    },
+    {
+      "citizen": "Moped",
+      "undercover": "RV"
+    },
+    {
+      "citizen": "Camper",
+      "undercover": "Trailer"
+    },
+    {
+      "citizen": "Caravan",
+      "undercover": "Motorhome"
+    },
+    {
+      "citizen": "Convertible",
+      "undercover": "Sedan"
+    },
+    {
+      "citizen": "SUV",
+      "undercover": "Hatchback"
+    },
+    {
+      "citizen": "Coupe",
+      "undercover": "Pickup"
+    },
+    {
+      "citizen": "Engine",
+      "undercover": "Wheel"
+    },
+    {
+      "citizen": "Tire",
+      "undercover": "Steering Wheel"
+    },
+    {
+      "citizen": "Seat",
+      "undercover": "Door"
+    },
+    {
+      "citizen": "Window",
+      "undercover": "Mirror"
+    },
+    {
+      "citizen": "Light",
+      "undercover": "Brake"
+    }
   ]
 }
