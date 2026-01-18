@@ -8,6 +8,7 @@ import { Button } from '../common/Button';
 import { Card } from '../common/Card';
 import { TopBar } from '../layout/TopBar';
 import { Eye } from 'lucide-react';
+import { soundService } from '../../services/soundService';
 
 interface RoleRevealProps {
   player: Player;
@@ -41,6 +42,7 @@ export const RoleReveal = ({ player, onConfirm, secretWord, category, undercover
         requestRef.current = requestAnimationFrame(animate);
       } else {
         setIsRevealed(true);
+        soundService.playCardFlip();
         setProgress(0);
         if (navigator.vibrate) navigator.vibrate(50);
       }

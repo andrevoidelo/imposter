@@ -7,9 +7,23 @@ import CategoryManager from './pages/CategoryManager';
 import CategoryEditor from './pages/CategoryEditor';
 import { useGameStore } from './contexts/useGameStore';
 import { useEffect } from 'react';
+import { soundService } from './services/soundService';
 
 function App() {
   const { settings } = useGameStore();
+
+  useEffect(() => {
+    const handleGlobalClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      // Check if the clicked element or its parents are interactive
+      if (target.closest('button, a, input[type="radio"], input[type="checkbox"], [role="button"], .clickable')) {
+        soundService.playClick();
+      }
+    };
+
+    window.addEventListener('click', handleGlobalClick);
+    return () => window.removeEventListener('click', handleGlobalClick);
+  }, []);
 
   useEffect(() => {
     const root = window.document.documentElement;

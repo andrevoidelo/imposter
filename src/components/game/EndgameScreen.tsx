@@ -4,11 +4,21 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { RotateCcw, Home } from 'lucide-react';
 import { FixedFooter } from '../layout/FixedFooter';
+import { useEffect } from 'react';
+import { soundService } from '../../services/soundService';
 
 export const EndgameScreen = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const { players, winner, secretWord, playAgain, resetGame } = useGameStore();
+
+  useEffect(() => {
+    if (winner === 'citizens') {
+      soundService.playSuccess();
+    } else {
+      soundService.playFailure();
+    }
+  }, [winner]);
 
   const impostors = players.filter(p => p.role === 'impostor' || p.role === 'undercover' || p.role === 'mrwhite');
   const impostorNames = impostors.map(p => p.name).join(', ');
