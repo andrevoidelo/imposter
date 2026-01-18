@@ -53,6 +53,7 @@
     "rounds": {
       "title": "Clue Phase",
       "round": "Round",
+      "roundsTitle": "Rounds",
       "rule1": "Starting with the first player, everyone gives <1>ONE</1> clue.",
       "rule2": "Go clockwise.",
       "rule3": "Be subtle! Don't give away the word, but don't be too vague.",
@@ -81,7 +82,7 @@
       "wrong": "GUESSED WRONG"
     },
     "endgame": {
-      "citizensWin": "CITIZENS WIN!",
+      "citizensWin": "INNOCENTS WIN!",
       "impostorWas": "{{name}} was the Impostor!",
       "impostorWins": "IMPOSTOR WINS!",
       "secretWord": "Secret Word",
@@ -104,22 +105,22 @@
     "vote": {
       "title": "3. Single Vote",
       "text": "After the discussion, the group must vote for ONE person.",
-      "li1": "If you vote for the <1>IMPOSTOR</1>, the Citizens win! (But watch out...)",
+      "li1": "If you vote for the <1>IMPOSTOR</1>, the Innocents win! (But watch out...)",
       "li2": "If you vote for an <1>INNOCENT</1>, the Impostor wins immediately!"
     },
     "lastChance": {
       "title": "4. Last Chance",
-      "text": "If the Impostor is discovered, they have one <1>last chance</1>: if they guess the secret word, they steal the victory from the Citizens!"
+      "text": "If the Impostor is discovered, they have one <1>last chance</1>: if they guess the secret word, they steal the victory from the Innocents!"
     },
     "specialModes": {
       "title": "Special Modes",
       "undercover": {
         "title": "🕵️ Undercover",
-        "text": "Replaces the Impostor. They receive a word <1>very similar</1> to the citizens', making them much harder to detect."
+        "text": "Replaces the Impostor. They receive a word <1>very similar</1> to the innocents', making them much harder to detect."
       },
       "confused": {
         "title": "😵 Confused",
-        "text": "An <1>additional</1> role. Receives a similar word, but is innocent! Plays with the citizens."
+        "text": "An <1>additional</1> role. Receives a similar word, but is innocent! Plays with the innocents."
       }
     },
     "button": "GOT IT, LET'S PLAY!"

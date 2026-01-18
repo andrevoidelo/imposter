@@ -42,27 +42,27 @@ export const DiscussionTimer = ({ duration, onComplete }: DiscussionTimerProps) 
   const isUrgent = timeLeft < 10 && timeLeft > 0;
 
   return (
-    <div className="flex-1 flex flex-col h-full">
+    <div
+      className="fixed inset-0 flex flex-col"
+      style={{
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 3.5rem)',
+        paddingBottom: 'calc(var(--safe-area-inset-bottom, 0px) + 5.5rem)',
+      }}
+    >
       <TopBar title={t('game.discussion.title')} onBack={() => navigate('/setup')} />
 
       {/* Main Content Area */}
-      <div className="flex-1 flex flex-col">
-        {/* Spacer between TopBar and Text */}
-        <div className="flex-1" />
-
-        {/* Instruction Text */}
-        <div className="text-center shrink-0 animate-in fade-in duration-700">
-          <p className="text-xl text-text-secondary font-medium px-6">
+      <div className="flex-1 flex flex-col items-center px-4">
+        {/* Instruction Text - at top */}
+        <div className="text-center pt-6 mb-auto animate-in fade-in duration-700">
+          <p className="text-xl text-text-secondary font-medium">
             {t('game.discussion.subtitle')}
           </p>
         </div>
 
-        {/* Spacer between Text and Clock */}
-        <div className="flex-1" />
-
-        {/* Centered Clock Section */}
-        <div className="flex-none flex flex-col items-center justify-center mb-8 shrink-0">
-          <div className="w-full max-w-[280px] aspect-square flex items-center justify-center relative mb-8">
+        {/* Centered Clock Section - fixed size to prevent layout shifts */}
+        <div className="flex flex-col items-center justify-center mb-auto">
+          <div className="w-[280px] h-[280px] flex items-center justify-center relative mb-6">
               <svg className="absolute inset-0 w-full h-full transform -rotate-90 drop-shadow-2xl" viewBox="0 0 100 100">
               <circle
                   cx="50"
@@ -93,9 +93,9 @@ export const DiscussionTimer = ({ duration, onComplete }: DiscussionTimerProps) 
           </div>
 
           {/* Pause Button below the clock */}
-          <Button 
-            variant="secondary" 
-            onClick={toggleTimer} 
+          <Button
+            variant="secondary"
+            onClick={toggleTimer}
             className="h-12 px-8 gap-2 text-lg rounded-xl transition-all duration-300 active:scale-95 border-text-primary/10"
             disabled={timeLeft === 0}
           >
@@ -103,9 +103,6 @@ export const DiscussionTimer = ({ duration, onComplete }: DiscussionTimerProps) 
             {isActive ? t('game.discussion.pause') : t('game.discussion.resume')}
           </Button>
         </div>
-
-        {/* Spacer between Clock and Footer */}
-        <div className="flex-1" />
       </div>
 
       {/* Consistent Footer Button Area */}
@@ -117,12 +114,12 @@ export const DiscussionTimer = ({ duration, onComplete }: DiscussionTimerProps) 
                     <p className="text-sm">{t('game.discussion.voteNow')}</p>
                 </Card>
             )}
-            
-            <Button 
-                fullWidth 
-                size="lg" 
-                onClick={onComplete} 
-                variant="primary" 
+
+            <Button
+                fullWidth
+                size="lg"
+                onClick={onComplete}
+                variant="primary"
                 className="h-16 text-xl shadow-xl shadow-primary-500/20 font-bold tracking-wide"
             >
                 {t('game.discussion.voteButton')}

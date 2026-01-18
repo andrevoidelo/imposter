@@ -14,8 +14,13 @@ const config: CapacitorConfig = {
       showSpinner: false
     },
     StatusBar: {
-      overlaysWebView: false,
-      backgroundColor: '#0f172a'
+      overlaysWebView: true,
+      style: 'DARK',
+      backgroundColor: '#00000000'
+    },
+    SafeArea: {
+      statusBarStyle: 'DARK',
+      navigationBarStyle: 'DARK'
     }
   }
 };

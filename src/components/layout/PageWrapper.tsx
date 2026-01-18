@@ -13,7 +13,11 @@ export const PageWrapper = ({ children, className }: PageWrapperProps) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
-      className={`min-h-full p-4 pt-20 pb-24 flex flex-col max-w-md mx-auto w-full ${className}`}
+      className={`min-h-full p-4 flex flex-col max-w-md mx-auto w-full ${className}`}
+      style={{
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 4.5rem)', // safe area + TopBar height (h-14 = 3.5rem) + 1rem gap
+        paddingBottom: 'calc(var(--safe-area-inset-bottom, 0px) + 5rem)', // safe area + FixedFooter approximate height
+      }}
     >
       {children}
     </motion.div>

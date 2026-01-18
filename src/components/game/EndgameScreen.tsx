@@ -27,7 +27,7 @@ export const EndgameScreen = ({ eliminatedPlayerId }: EndgameScreenProps) => {
     bgColor = 'bg-success';
     title = t('game.endgame.citizensWin');
     subtitle = t('game.endgame.impostorWas', { name: eliminatedPlayer?.name });
-    icon = '🎉';
+    icon = '/mute.svg';
   } else {
     // Impostors win
     bgColor = 'bg-danger';
@@ -37,10 +37,16 @@ export const EndgameScreen = ({ eliminatedPlayerId }: EndgameScreenProps) => {
   }
 
   return (
-    <div className={`fixed inset-0 z-50 flex flex-col justify-center items-center text-center py-6 ${bgColor} text-white animate-in fade-in duration-500`}>
+    <div
+      className={`fixed inset-0 z-50 flex flex-col justify-center items-center text-center ${bgColor} text-white animate-in fade-in duration-500`}
+      style={{
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 1.5rem)',
+        paddingBottom: 'calc(var(--safe-area-inset-bottom, 0px) + 1.5rem)',
+      }}
+    >
       {/* Main Content Area */}
       <div className="w-full flex-1 flex flex-col justify-center items-center px-6 overflow-y-auto no-scrollbar">
-        <div className="mb-6 animate-bounce shrink-0">
+        <div className="mb-6 shrink-0">
           {icon.startsWith('/') ? (
             <img src={icon} className="w-32 h-32 invert" alt="Icon" />
           ) : (

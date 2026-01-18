@@ -12,7 +12,13 @@ export const ImpostorGuessScreen = () => {
   const isDark = settings.theme === 'dark';
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col justify-center items-center text-center p-6 bg-bg-dark">
+    <div
+      className="fixed inset-0 z-50 flex flex-col justify-center items-center text-center p-6 bg-bg-dark"
+      style={{
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 1.5rem)',
+        paddingBottom: 'calc(var(--safe-area-inset-bottom, 0px) + 1.5rem)',
+      }}
+    >
       <div className="space-y-4 mb-12 animate-in fade-in zoom-in duration-500">
         <img src="/spy.svg" className={`w-32 h-32 mb-6 mx-auto ${isDark ? 'invert' : 'opacity-70'}`} alt="Spy" />
         <h1 className="text-4xl font-bold font-display text-danger uppercase leading-tight">

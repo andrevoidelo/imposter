@@ -53,6 +53,7 @@
     "rounds": {
       "title": "Fase de Pistas",
       "round": "Rodada",
+      "roundsTitle": "Rodadas",
       "rule1": "Começando pelo primeiro jogador, cada pessoa dá <1>UMA</1> pista.",
       "rule2": "Siga em sentido horário.",
       "rule3": "Seja sutil! Não entregue a palavra, mas não seja vago demais.",
@@ -81,7 +82,7 @@
       "wrong": "ERROU"
     },
     "endgame": {
-      "citizensWin": "CIDADÃOS VENCERAM!",
+      "citizensWin": "INOCENTES VENCERAM!",
       "impostorWas": "{{name}} era o Impostor!",
       "impostorWins": "IMPOSTOR VENCEU!",
       "secretWord": "Palavra Secreta",
@@ -104,22 +105,22 @@
     "vote": {
       "title": "3. Votação Única",
       "text": "Após a discussão, o grupo deve votar em UMA pessoa.",
-      "li1": "Se votarem no <1>IMPOSTOR</1>, os Cidadãos vencem! (Mas cuidado...)",
+      "li1": "Se votarem no <1>IMPOSTOR</1>, os Inocentes vencem! (Mas cuidado...)",
       "li2": "Se votarem em um <1>INOCENTE</1>, o Impostor vence imediatamente!"
     },
     "lastChance": {
       "title": "4. Última Chance",
-      "text": "Se o Impostor for descoberto, ele tem uma <1>última chance</1>: se ele adivinhar qual é a palavra secreta, ele rouba a vitória dos Cidadãos!"
+      "text": "Se o Impostor for descoberto, ele tem uma <1>última chance</1>: se ele adivinhar qual é a palavra secreta, ele rouba a vitória dos Inocentes!"
     },
     "specialModes": {
       "title": "Modos Especiais",
       "undercover": {
         "title": "🕵️ Infiltrado",
-        "text": "Substitui o Impostor. Ele recebe uma palavra <1>muito parecida</1> com a dos cidadãos, tornando-o muito mais difícil de detectar."
+        "text": "Substitui o Impostor. Ele recebe uma palavra <1>muito parecida</1> com a dos inocentes, tornando-o muito mais difícil de detectar."
       },
       "confused": {
         "title": "😵 Confuso",
-        "text": "Um papel <1>adicional</1>. Recebe uma palavra parecida, mas é inocente! Joga com os cidadãos."
+        "text": "Um papel <1>adicional</1>. Recebe uma palavra parecida, mas é inocente! Joga com os inocentes."
       }
     },
     "button": "ENTENDI, VAMOS JOGAR!"

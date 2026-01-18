@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <PageWrapper className="flex flex-col items-center justify-center space-y-12">
       <LanguageSwitcher />
-      <ThemeSwitcher className="fixed top-4 left-4 z-50" />
+      <ThemeSwitcher className="fixed left-4 z-50" style={{ top: 'calc(var(--safe-area-inset-top, 0px) + 1rem)' }} />
       
       <div className="text-center space-y-4 animate-in fade-in slide-in-from-top-8 duration-700">
         <img src="/spy.svg" className={`w-32 h-32 mb-4 mx-auto ${isDark ? 'invert' : 'opacity-70'}`} alt="Spy" />
@@ -46,7 +46,7 @@ export default function Home() {
         </Button>
       </div>
       
-      <div className="text-text-muted text-xs absolute flex flex-col items-center gap-1 bottom-8">
+      <div className="text-text-muted text-xs absolute flex flex-col items-center gap-1" style={{ bottom: 'calc(var(--safe-area-inset-bottom, 0px) + 2rem)' }}>
         <span>v1.0.0</span>
         <span className="opacity-60">André Ricardo Voidelo</span>
       </div>

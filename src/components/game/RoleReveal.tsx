@@ -7,7 +7,6 @@ import { useGameStore } from '../../contexts/useGameStore';
 import { Button } from '../common/Button';
 import { Card } from '../common/Card';
 import { TopBar } from '../layout/TopBar';
-import { FixedFooter } from '../layout/FixedFooter';
 import { Eye } from 'lucide-react';
 
 interface RoleRevealProps {
@@ -56,16 +55,16 @@ export const RoleReveal = ({ player, onConfirm, secretWord, category, undercover
   };
 
   const getRoleContent = () => {
-    const iconClass = `w-32 h-32 mb-8 mx-auto ${isDark ? 'invert' : 'opacity-70'}`;
-    
+    const iconClass = `w-24 h-24 mb-4 mx-auto ${isDark ? 'invert' : 'opacity-70'}`;
+
     switch (player.role) {
       case 'citizen':
         return (
           <>
             <img src="/mute.svg" className={iconClass} alt="Mute" />
-            <h3 className="text-2xl text-text-secondary mb-4">{t('game.roles.yourWord')}</h3>
-            <div className="text-5xl font-bold text-primary-400 mb-6 tracking-wide">{secretWord}</div>
-            <div className="text-base bg-bg-elevated px-4 py-2 rounded-full inline-block text-text-muted">
+            <h3 className="text-xl text-text-secondary mb-2">{t('game.roles.yourWord')}</h3>
+            <div className="text-3xl font-bold text-primary-400 mb-4 tracking-wide break-words px-2">{secretWord}</div>
+            <div className="text-sm bg-bg-elevated px-3 py-1.5 rounded-full inline-block text-text-muted">
               {t('game.roles.category', { category })}
             </div>
           </>
@@ -74,9 +73,9 @@ export const RoleReveal = ({ player, onConfirm, secretWord, category, undercover
         return (
           <>
             <img src="/mute.svg" className={iconClass} alt="Mute" />
-            <h3 className="text-2xl text-text-secondary mb-4">{t('game.roles.yourWord')}</h3>
-            <div className="text-5xl font-bold text-primary-400 mb-6 tracking-wide">{confusedWord || secretWord}</div>
-            <div className="text-base bg-bg-elevated px-4 py-2 rounded-full inline-block text-text-muted">
+            <h3 className="text-xl text-text-secondary mb-2">{t('game.roles.yourWord')}</h3>
+            <div className="text-3xl font-bold text-primary-400 mb-4 tracking-wide break-words px-2">{confusedWord || secretWord}</div>
+            <div className="text-sm bg-bg-elevated px-3 py-1.5 rounded-full inline-block text-text-muted">
               {t('game.roles.category', { category })}
             </div>
           </>
@@ -85,17 +84,17 @@ export const RoleReveal = ({ player, onConfirm, secretWord, category, undercover
         return (
           <>
             <img src="/spy.svg" className={iconClass} alt="Spy" />
-            <h3 className="text-4xl font-bold text-role-impostor mb-4 leading-tight px-4">{t('game.roles.impostorTitle')}</h3>
-            <p className="text-lg text-text-secondary mb-2">{t('game.roles.yourWord')}</p>
-            <div className="text-5xl font-bold text-warning mb-4 tracking-wide">{undercoverWord || secretWord}</div>
+            <h3 className="text-3xl font-bold text-role-impostor mb-2 leading-tight px-2">{t('game.roles.impostorTitle')}</h3>
+            <p className="text-base text-text-secondary mb-1">{t('game.roles.yourWord')}</p>
+            <div className="text-3xl font-bold text-warning mb-2 tracking-wide break-words px-2">{undercoverWord || secretWord}</div>
           </>
         );
       case 'impostor':
         return (
           <>
             <img src="/spy.svg" className={iconClass} alt="Spy" />
-            <h3 className="text-4xl font-bold text-role-impostor mb-6 leading-tight px-4">{t('game.roles.impostorTitle')}</h3>
-            <p className="text-lg text-text-secondary px-6">
+            <h3 className="text-3xl font-bold text-role-impostor mb-4 leading-tight px-2">{t('game.roles.impostorTitle')}</h3>
+            <p className="text-base text-text-secondary px-4">
               {t('game.roles.impostorDesc')}
             </p>
           </>
@@ -106,17 +105,23 @@ export const RoleReveal = ({ player, onConfirm, secretWord, category, undercover
   };
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center text-center py-6 h-full">
+    <div
+      className="fixed inset-0 flex flex-col justify-between items-center text-center overflow-hidden"
+      style={{
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 3.5rem)',
+        paddingBottom: 'calc(var(--safe-area-inset-bottom, 0px) + 1rem)',
+      }}
+    >
       <TopBar title="" onBack={() => navigate('/setup')} />
-      
+
       {/* Header Info */}
-      <div className="space-y-2 mb-8 animate-in fade-in duration-700">
-        <h2 className="text-lg text-text-secondary uppercase tracking-widest">{t('game.roles.passTo')}</h2>
-        <h1 className="text-5xl font-bold text-primary-500">{player.name}</h1>
+      <div className="space-y-1 pt-4 animate-in fade-in duration-700 shrink-0">
+        <h2 className="text-base text-text-secondary uppercase tracking-widest">{t('game.roles.passTo')}</h2>
+        <h1 className="text-4xl font-bold text-primary-500">{player.name}</h1>
       </div>
 
       {/* The Card Container */}
-      <div className="w-full max-w-[320px] aspect-[2/3] relative perspective-1000 mb-12">
+      <div className="w-full max-w-[320px] flex-1 max-h-[60vh] relative perspective-1000 my-4 px-4">
         <AnimatePresence mode="wait">
           {!isRevealed ? (
             <motion.div
@@ -167,24 +172,24 @@ export const RoleReveal = ({ player, onConfirm, secretWord, category, undercover
       </div>
 
       {/* Action Button */}
-      {isRevealed ? (
-        <FixedFooter>
-          <Button 
-            fullWidth 
-            size="lg" 
-            onClick={onConfirm} 
-            className="animate-in fade-in slide-in-from-bottom-4 duration-500 h-16 text-xl shadow-xl shadow-primary-500/20"
+      <div className="w-full max-w-[320px] px-4 shrink-0">
+        {isRevealed ? (
+          <Button
+            fullWidth
+            size="lg"
+            onClick={onConfirm}
+            className="animate-in fade-in slide-in-from-bottom-4 duration-500 h-14 text-lg shadow-xl shadow-primary-500/20"
           >
             {t('game.roles.understood')}
           </Button>
-        </FixedFooter>
-      ) : (
-        <div className="w-full max-w-[320px] h-16 flex items-center justify-center">
-           <p className="text-text-muted text-sm italic animate-pulse">
-             {progress > 0 ? t('game.roles.revealing') : t('game.roles.waiting')}
-           </p>
-        </div>
-      )}
+        ) : (
+          <div className="h-14 flex items-center justify-center">
+             <p className="text-text-muted text-sm italic animate-pulse">
+               {progress > 0 ? t('game.roles.revealing') : t('game.roles.waiting')}
+             </p>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

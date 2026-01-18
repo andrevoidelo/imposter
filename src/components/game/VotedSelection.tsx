@@ -21,14 +21,21 @@ export const VotedSelection = ({ players, onVote }: VotedSelectionProps) => {
   const activePlayers = players.filter(p => !p.isEliminated);
 
   return (
-    <div className="flex-1 flex flex-col h-full">
+    <div
+      className="fixed inset-0 flex flex-col"
+      style={{
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 3.5rem)',
+        paddingBottom: 'calc(var(--safe-area-inset-bottom, 0px) + 5.5rem)',
+      }}
+    >
       <TopBar title={t('game.vote.title')} onBack={() => navigate('/setup')} />
 
-      <div className="text-center space-y-2 mb-6 shrink-0 animate-in fade-in duration-700">
+      {/* Subtitle at top of main area */}
+      <div className="text-center pt-6 mb-6 shrink-0 animate-in fade-in duration-700 px-4">
         <p className="text-text-secondary">{t('game.vote.subtitle')}</p>
       </div>
 
-      <div className="flex-1 overflow-y-auto space-y-3 py-2 px-1 mb-6 custom-scrollbar -mx-2">
+      <div className="flex-1 overflow-y-auto space-y-3 py-2 px-4 custom-scrollbar">
         {activePlayers.map((player) => (
           <Card 
             key={player.id}
