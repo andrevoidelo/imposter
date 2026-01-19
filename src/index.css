@@ -78,4 +78,11 @@ body {
   background-color: var(--color-bg-dark);
   color: var(--color-text-primary);
   font-family: var(--font-body);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+input, textarea, [contenteditable="true"] {
+  user-select: text;
+  -webkit-user-select: text;
 }

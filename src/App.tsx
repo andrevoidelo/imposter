@@ -42,17 +42,16 @@ function App() {
     const updateSystemBars = async () => {
       try {
         // Use actual theme background colors
-        const color = isLight ? '#f1f5f9' : '#0f172a';
         const style = isLight ? Style.Light : Style.Dark; // Light = Dark text, Dark = Light text
 
-        // Status Bar - Don't overlay content
-        await StatusBar.setOverlaysWebView({ overlay: false });
+        // Status Bar - Overlay content for Edge-to-Edge
+        await StatusBar.setOverlaysWebView({ overlay: true });
         await StatusBar.setStyle({ style });
-        await StatusBar.setBackgroundColor({ color });
+        await StatusBar.setBackgroundColor({ color: '#00000000' }); // Transparent
 
         // Navigation Bar
         await NavigationBar.setNavigationBarColor({
-          color: color,
+          color: '#00000000', // Transparent
           darkButtons: isLight
         });
       } catch (e) {

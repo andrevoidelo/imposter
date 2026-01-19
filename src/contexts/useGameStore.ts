@@ -80,55 +80,10 @@ export const useGameStore = create<GameStore>()(
         const assignedPlayers = assignRoles(players, settings.gameMode, settings.includeConfused);
         
         // 2. Select Word(s)
-        let secretWord = '';
-        let secretWordCategory = '';
-        let undercoverWord: string | undefined;
-        let confusedWord: string | undefined;
-
-        if (settings.gameMode === 'undercover' && settings.includeConfused) {
-             // Both modes active: Need 2 pairs for distinct words
-             const data = categoryService.getTwoRandomWordPairs();
-             if (data) {
-                 secretWord = data.pair1.citizen;
-                 secretWordCategory = data.category;
-                 undercoverWord = data.pair1.undercover;
-                 confusedWord = data.pair2.citizen; // Confused gets a citizen word from a different pair (similar theme)
-             } else {
-                 console.error("Not enough pairs for both modes! Falling back...");
-                 // Fallback: Use one pair, overlap words (less ideal but works)
-                 const fallback = categoryService.getRandomWordPair();
-                 if (fallback) {
-                     secretWord = fallback.citizen;
-                     secretWordCategory = fallback.category;
-                     undercoverWord = fallback.undercover;
-                     confusedWord = fallback.undercover;
-                 }
-             }
-        } else if (settings.gameMode === 'undercover') {
-             const data = categoryService.getRandomWordPair();
-             if (data) {
-                 secretWord = data.citizen;
-                 secretWordCategory = data.category;
-                 undercoverWord = data.undercover;
-             }
-        } else if (settings.includeConfused) {
-             const data = categoryService.getRandomWordPair();
-             if (data) {
-                 secretWord = data.citizen;
-                 secretWordCategory = data.category;
-                 confusedWord = data.undercover; // Confused gets the "other" word
-             }
-        } else {
-             // Classic
-             const data = categoryService.getRandomWord();
-             if (data) {
-                 secretWord = data.word;
-                 secretWordCategory = data.category;
-             }
-        }
+        const gameWords = categoryService.getGameWords(settings.gameMode, settings.includeConfused);
         
-        if (!secretWord) {
-            console.error("Failed to select word");
+        if (!gameWords) {
+            console.error("Failed to select words. Make sure categories are enabled.");
             return;
         }
 
@@ -137,10 +92,10 @@ export const useGameStore = create<GameStore>()(
           currentPhase: 'roles',
           currentRound: 1,
           currentPlayerIndex: 0,
-          secretWord,
-          secretWordCategory,
-          undercoverWord,
-          confusedWord,
+          secretWord: gameWords.secretWord,
+          secretWordCategory: gameWords.category,
+          undercoverWord: gameWords.undercoverWord,
+          confusedWord: gameWords.confusedWord,
           eliminatedPlayers: [],
           gameEnded: false,
           winner: undefined,

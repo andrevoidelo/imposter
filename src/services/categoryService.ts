@@ -258,6 +258,90 @@ class CategoryService {
     return stored ? JSON.parse(stored) : {};
   }
 
+  getGameWords(gameMode: string, includeConfused: boolean): { 
+    secretWord: string; 
+    category: string; 
+    undercoverWord?: string; 
+    confusedWord?: string; 
+  } | null {
+    const enabled = this.getEnabledCategories();
+    if (enabled.length === 0) return null;
+
+    // Pick a random category first
+    const cat = enabled[Math.floor(Math.random() * enabled.length)];
+    if (!cat.words || cat.words.length === 0) return null;
+
+    let secretWord = '';
+    let undercoverWord: string | undefined;
+    let confusedWord: string | undefined;
+
+    const hasPairs = cat.wordPairs && cat.wordPairs.length > 0;
+
+    // Logic for selecting the main word(s)
+    if (hasPairs) {
+      // Priority: Use handcrafted pairs if available
+      const pairIndex = Math.floor(Math.random() * cat.wordPairs!.length);
+      const pair = cat.wordPairs![pairIndex];
+      secretWord = pair.citizen;
+      
+      if (gameMode === 'undercover') {
+        undercoverWord = pair.undercover;
+      }
+
+      if (includeConfused) {
+        // For confused, try to pick another pair's undercover word or just another random word
+        if (cat.wordPairs!.length >= 2) {
+          let secondPairIndex;
+          do {
+            secondPairIndex = Math.floor(Math.random() * cat.wordPairs!.length);
+          } while (secondPairIndex === pairIndex);
+          confusedWord = cat.wordPairs![secondPairIndex].undercover;
+        } else {
+          // Fallback if only 1 pair exists
+          const otherWords = cat.words.filter(w => w !== secretWord && w !== undercoverWord);
+          confusedWord = otherWords.length > 0 
+            ? otherWords[Math.floor(Math.random() * otherWords.length)]
+            : secretWord;
+        }
+      }
+    } else {
+      // Custom categories or built-in without pairs: use random words from same category
+      const words = [...cat.words];
+      const sIdx = Math.floor(Math.random() * words.length);
+      secretWord = words[sIdx];
+      
+      if (gameMode === 'undercover' || includeConfused) {
+        const remaining = words.filter(w => w !== secretWord);
+        
+        if (gameMode === 'undercover') {
+          if (remaining.length > 0) {
+            const uIdx = Math.floor(Math.random() * remaining.length);
+            undercoverWord = remaining[uIdx];
+            remaining.splice(uIdx, 1);
+          } else {
+            undercoverWord = secretWord; // Fallback
+          }
+        }
+
+        if (includeConfused) {
+          if (remaining.length > 0) {
+            const cIdx = Math.floor(Math.random() * remaining.length);
+            confusedWord = remaining[cIdx];
+          } else {
+            confusedWord = secretWord; // Fallback
+          }
+        }
+      }
+    }
+
+    return {
+      secretWord,
+      category: cat.name,
+      undercoverWord,
+      confusedWord
+    };
+  }
+
   getRandomWord(): { word: string; category: string } | null {
     const enabled = this.getEnabledCategories();
     if (enabled.length === 0) return null;

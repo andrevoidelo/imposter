@@ -21,10 +21,14 @@ export const TopBar = ({ title, onBack, rightElement }: TopBarProps) => {
 
   return (
     <div
-      className="fixed left-0 right-0 z-20 bg-bg-dark/80 backdrop-blur-lg border-b border-text-primary/5 py-2 px-4 h-14"
-      style={{ top: 'var(--safe-area-inset-top, 0px)' }}
+      className="fixed left-0 right-0 z-20 bg-bg-dark/80 backdrop-blur-lg border-b border-text-primary/5 px-4"
+      style={{ 
+        paddingTop: 'calc(var(--safe-area-inset-top, 0px) + 0.5rem)',
+        paddingBottom: '0.5rem',
+        top: 0 
+      }}
     >
-      <div className="max-w-md mx-auto flex items-center justify-between h-full">
+      <div className="max-w-md mx-auto flex items-center justify-between h-14">
         <div className="flex items-center gap-4">
           <Button variant="ghost" size="icon" onClick={handleBack} className="h-10 w-10">
             <ArrowLeft size={20} />
