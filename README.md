@@ -3,6 +3,7 @@
 # 🕵️ Impostor!
 
 **A social deduction party game for friends and family**
+
 *Um jogo de dedução social para amigos e família*
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/andrevoidelo/imposter)
@@ -21,7 +22,7 @@
 
 ### About
 
-**Impostor!** is a digital adaptation of classic social deduction games like Werewolf and Mafia. Players gather around and pass a single device to secretly view their roles. Citizens know a secret word, while the Impostor must blend in without knowing it.
+**Impostor!** is a digital adaptation of classic social deduction games like Werewolf and Mafia. Players gather around and pass a single device to secretly view their roles. Innocents know a secret word, while the Impostor must blend in without knowing it.
 
 The game runs **100% offline** as a Progressive Web App (PWA), making it perfect for parties, gatherings, and road trips.
 
@@ -151,7 +152,7 @@ This project is licensed under the MIT License.
 
 ### Sobre
 
-**Impostor!** é uma adaptação digital de jogos clássicos de dedução social como Lobisomem e Máfia. Os jogadores se reúnem e passam um único dispositivo para ver secretamente seus papéis. Os Cidadãos conhecem uma palavra secreta, enquanto o Impostor deve se disfarçar sem conhecê-la.
+**Impostor!** é uma adaptação digital de jogos clássicos de dedução social como Lobisomem e Máfia. Os jogadores se reúnem e passam um único dispositivo para ver secretamente seus papéis. Os Inocentes conhecem uma palavra secreta, enquanto o Impostor deve se disfarçar sem conhecê-la.
 
 O jogo funciona **100% offline** como um Progressive Web App (PWA), sendo perfeito para festas, encontros e viagens.
 
@@ -285,6 +286,7 @@ Este projeto está licenciado sob a Licença MIT.
 <div align="center">
 Made with ❤️ for party game lovers
 </div>
+
 <div align="center">
 Feito com ❤️ para amantes de jogos de festa
 </div>
