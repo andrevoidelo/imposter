@@ -36,7 +36,7 @@ The game runs **100% offline** as a Progressive Web App (PWA), making it perfect
   - **Impostor**: Must blend in without knowing the word
   - **Confused** (Optional): Knows a different word but is innocent
   
-- 🌐 **Bilingual Support**: Full English and Portuguese localization
+- 🌐 **Localization Support**: Full English and Portuguese localization
 - 🌙 **Dark/Light Themes**: Beautiful UI with smooth animations
 - 📱 **Cross-Platform**: Web, Android, and iOS support
 - 📴 **Fully Offline**: No internet required after installation
@@ -160,11 +160,13 @@ O jogo funciona **100% offline** como um Progressive Web App (PWA), sendo perfei
 - 🎮 **Múltiplos Modos de Jogo**
 -- **Clássico:** Um impostor sem nenhuma pista
 -- **Infiltrado:** Impostor recebe uma palavra similar para maior desafio
+  
 - 👥 **Papéis Especiais**
 -- **Inocente:** Conhece a palavra secreta
 -- **Impostor:** Deve se disfarçar sem conhecer a palavra
 -- **Confuso (Opcional):** Conhece uma palavra diferente mas é inocente
-- 🌐 **Suporte Bilíngue:** Localização completa em Português e Inglês
+  
+- 🌐 **Suporte a Localização:** Localização completa em Português e Inglês
 - 🌙 **Temas Claro/Escuro:** Interface bonita com animações suaves
 - 📱 **Multiplataforma:** Suporte para Web, Android e iOS
 - 📴 **Totalmente Offline:** Sem necessidade de internet após instalação
