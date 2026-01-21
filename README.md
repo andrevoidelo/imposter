@@ -159,13 +159,13 @@ O jogo funciona **100% offline** como um Progressive Web App (PWA), sendo perfei
 ### Funcionalidades (até agora)
 
 - 🎮 **Múltiplos Modos de Jogo**
--- **Clássico:** Um impostor sem nenhuma pista
--- **Infiltrado:** Impostor recebe uma palavra similar para maior desafio
+  - **Clássico:** Um impostor sem nenhuma pista
+  - **Infiltrado:** Impostor recebe uma palavra similar para maior desafio
   
 - 👥 **Papéis Especiais**
--- **Inocente:** Conhece a palavra secreta
--- **Impostor:** Deve se disfarçar sem conhecer a palavra
--- **Confuso (Opcional):** Conhece uma palavra diferente mas é inocente
+  - **Inocente:** Conhece a palavra secreta
+  - **Impostor:** Deve se disfarçar sem conhecer a palavra
+  - **Confuso (Opcional):** Conhece uma palavra diferente mas é inocente
   
 - 🌐 **Suporte a Localização:** Localização completa em Português e Inglês
 - 🌙 **Temas Claro/Escuro:** Interface bonita com animações suaves
